@@ -5,6 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: #D3D3C6; 
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -44,7 +45,7 @@
     }
 
     @include media-query($on-palm) {
-        position: absolute;
+        position: absoluDte;
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
