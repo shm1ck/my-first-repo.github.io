@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Vzor"
+date:   2016-05-31 05:10:14 -0400
+categories: vzor tisk
+author: Marek Šmidrkal
+---
+Tady něco bude.
