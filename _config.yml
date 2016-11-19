@@ -15,6 +15,9 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 permalink: /:title
+config:
+  img:
+    orig_url: /media/img/orig/
 
 # Build settings
 markdown: kramdown
