@@ -1,7 +1,13 @@
 ---
 layout: page
 title: Blog
-permalink: /page-one/
+permalink: /Blog/
 ---
 
-Toto je vzorová stránka.
+<ul class="post-list">
+    {% for page in site.categories.blog %}
+      <li>
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1> 
+      </li>
+    {% endfor %}
+</ul>
