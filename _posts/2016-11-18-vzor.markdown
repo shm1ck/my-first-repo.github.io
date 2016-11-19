@@ -7,5 +7,6 @@ author: Marek Šmidrkal
 images:
   - "vzor/01.jpg"
   - "vzor/02.jpg"
+  - "vzor/03.jpg"
 ---
 Tady něco bude.
