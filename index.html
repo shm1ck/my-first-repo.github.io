@@ -9,6 +9,7 @@ layout: default
   
   <ul class="post-list">
     {% for post in site.posts %}
+    {% assign content = page.content %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
