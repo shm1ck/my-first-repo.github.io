@@ -5,6 +5,6 @@ date:   2016-05-31 05:10:14 -0400
 categories: vzor tisk
 author: Marek Šmidrkal
 images:
-  - "expozice-obrazu-aloise-dolezala/01.jpg"
+  - "vzor/01.jpg"
 ---
 Tady něco bude.
