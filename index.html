@@ -16,8 +16,8 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         {% if page.images %}
-        <a href="{{ page.url }}"><img src="{{ site.config.img.orig_url }}{{ page.images|first.image }}" /></a></li>
-    {% endif %}
+        <a href="{{ page.url }}"><img src="{{ site.config.img.orig_url }}{{ page.images|first.image }}" /></a>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
