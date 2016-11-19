@@ -8,7 +8,7 @@ permalink: /Blog/
     {% for page in site.categories.blog %}
       <li>
       <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <p>publikováno {{ page.date }}</p>
+      <p>publikováno {{ page.date | date: "%d. %m. %Y"}}</p>
       </li>
     {% endfor %}
 </ul>
