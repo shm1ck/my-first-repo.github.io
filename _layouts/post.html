@@ -12,7 +12,7 @@ layout: default
   </div>
   
   {% if page.images %}
-  <img src="{{ site.config.img.orig_url }}{{ image }}" />
+  {% for image in page.images %}<img src="{{ site.config.img.orig_url }}{{ image }}" />{% endfor %}
   {% endif %}
 
 </article>
