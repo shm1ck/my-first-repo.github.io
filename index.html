@@ -9,15 +9,14 @@ layout: default
   
   <ul class="post-list">
     {% for post in site.posts %}
-    {% assign content = page.content %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        {% if page.images %}
-        <a href="{{ page.url }}"><img src="{{ site.config.img.orig_url }}{{ page.images|first.image }}" /></a>
+        {% if post.images %}
+        <a href="{{ post.url }}"><img src="{{ site.config.img.orig_url }}{{ post.images|first.image }}" /></a>
         {% endif %}
       </li>
     {% endfor %}
