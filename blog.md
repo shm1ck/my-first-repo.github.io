@@ -2,6 +2,7 @@
 layout: page
 title: Blog
 permalink: /Blog/
+is_published: false
 ---
 
 <ul class="post-list">
