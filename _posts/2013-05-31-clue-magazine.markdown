@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Časopis Clue"
-date:   2016-05-31 05:10:14 -0400
+date:   2013-05-31 05:10:14 -0400
 categories: tisk
 author: Marek Šmidrkal
 images:
