@@ -6,5 +6,7 @@ categories: tisk
 author: Marek Šmidrkal
 images:
   - "prislovi/01.jpg"
+  - "prislovi/02.jpg"
+  - "prislovi/03.jpg"
 ---
 Tady něco bude.
