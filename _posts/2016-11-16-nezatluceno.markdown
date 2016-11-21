@@ -6,5 +6,7 @@ categories: tisk
 author: Marek Šmidrkal
 images:
   - "nezatluceno/01.jpg"
+  - "nezatluceno/02.jpg"
+  - "nezatluceno/03.jpg"
 ---
 Tady něco bude.
