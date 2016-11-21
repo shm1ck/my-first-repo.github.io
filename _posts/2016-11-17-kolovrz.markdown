@@ -6,5 +6,8 @@ categories: tisk
 author: Marek Šmidrkal
 images:
   - "kolovrz/01.jpg"
+  - "kolovrz/02.jpg"
+  - "kolovrz/03.jpg"
+  - "kolovrz/04.jpg"
 ---
 Tady něco bude.
