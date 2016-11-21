@@ -6,5 +6,6 @@ categories: tisk
 author: Marek Šmidrkal
 images:
   - "na-vsech-frontach-boj/01.jpg"
+  - "na-vsech-frontach-boj/02.jpg"
 ---
 Tady něco bude.
