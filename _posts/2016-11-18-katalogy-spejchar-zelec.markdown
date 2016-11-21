@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Katalogy Obrazárny Špejchar Želeč"
-date:   2016-05-31 05:10:14 -0400
+date:   2015-05-31 05:10:14 -0400
 categories: tisk
 author: Marek Šmidrkal
 images:
