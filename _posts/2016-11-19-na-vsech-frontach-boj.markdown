@@ -8,4 +8,4 @@ images:
   - "na-vsech-frontach-boj/01.jpg"
   - "na-vsech-frontach-boj/02.jpg"
 ---
-Tady něco bude.
+Dva osudy dvou důstojníků předválečné československé armády, kteří se rozhodli útéci z Protektorátu do československého zahraničního vojska. Druhá polovina knihy obsahuje přepis válečného deníku pplk. (in memoriam) Lidislava Říhy (1916&mdash;1942).
