@@ -9,4 +9,5 @@ images:
   - "munice-domaci-fronty/02.jpg"
   - "munice-domaci-fronty/03.jpg"
 ---
-Tady něco bude.
+
+I propaganda vykonaná prostřednictvím válečných plakátů sloužila jako <i>munice domácí fronty</i>. Publikace, která se zabývá angloamerickým válečným plakátem první světové války, vyšla jako první s originálním českým textem. Nalezneme v ní přes sto reprodukcí plakátů, které pomáhaly vyhrát velkou válku.
