@@ -2,6 +2,7 @@
 layout: post
 title: Kontakt
 permalink: /kontakt/
+date:   2015-05-31 05:10:14 -0400
 images:
   - "about/01.jpg"
 ---
