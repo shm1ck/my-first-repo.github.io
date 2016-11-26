@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Zálapeky, pečetky a jiné známky"
+title:  "Zálepky, pečetky a jiné známky"
 date:   2015-05-31 05:10:14 -0400
 categories: tisk
 author: Marek Šmidrkal
