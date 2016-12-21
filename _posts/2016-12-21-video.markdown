@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Video tvorba"
+title:  "Audiovizuální tvorba"
 date:   2015-05-31 05:10:14 -0400
 categories: video
 author: Marek Šmidrkal
 ---
-
-Video tvorba
+Během svého působění na Ministerstvu obrany jako pracovník PR oddělení jsem vytvořil nespočet klipů a krátkých propagačních filmů. Audiovizuální obsah jsem vytvářel od fáze přípravy scénáře přes samotné natáčení až po postprodukci.
