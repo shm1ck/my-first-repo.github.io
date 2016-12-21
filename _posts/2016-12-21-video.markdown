@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Video tvorba"
+date:   2015-05-31 05:10:14 -0400
+categories: video
+author: Marek Šmidrkal
+---
+
+Video tvorba
