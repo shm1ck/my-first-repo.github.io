@@ -7,10 +7,10 @@ author: Marek Šmidrkal
 ---
 <p>Mám bohaté zkušenosti s tvorbou audiovizuáních děl. Více než tři roky jsem zpracovával video obsah webu a sociálních sítí Ministerstva obrany, kde jsem pracoval v PR oddělení jako kameraman, střihač a grafik.</p>
 
-<h1>Čestná stráž AČR</h1>
+<h1 class="video">Čestná stráž AČR</h1>
 <p>Čestná stráž AČR zajišťuje důstojný průběh protokolárních, slavnostních a pietních akcí na celém území republiky i v zahraničí. Klip vizuálně přibližuje co obnáší práce příslušníků Čestné stráže, včetně exhibičních vystoupení, které jsou nad rámec jejich povinností.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/klco_j7FvHU?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h1>Generál ze žuly a bronzu</h1>
+<h1 class="video">Generál ze žuly a bronzu</h1>
 <p>Krátký dokument mapující život generála Tomáše Sedláčka a vytvoření jeho pomníku na půdě Posádkového velitelství Praha.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ebUc5Fceuck?rel=0" frameborder="0" allowfullscreen></iframe>
