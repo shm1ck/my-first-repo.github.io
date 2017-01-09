@@ -8,5 +8,5 @@ author: Marek Šmidrkal
 <p>Mám bohaté zkušenosti s tvorbou audiovizuáních děl. Více než tři roky jsem zpracovával video obsah webu a sociálních sítí Ministerstva obrany, kde jsem pracoval v PR oddělení jako kameraman, střihač a grafik.</p>
 
 <h1>Generál ze žuly a bronzu</h1>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ebUc5Fceuck?rel=0" frameborder="0" allowfullscreen></iframe>
 <p>Krátký dokument mapující život generála Tomáše Sedláčka a vytvoření jeho pomníku na půdě Posádkového velitelství Praha.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ebUc5Fceuck?rel=0" frameborder="0" allowfullscreen></iframe>
