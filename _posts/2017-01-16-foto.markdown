@@ -7,6 +7,10 @@ author: Marek Šmidrkal
 ---
 <h1 class="video">Fotografie z divadleního představení</h1>
 <p>Werich: Lakomá Barka, divadlení soubor CO?!, Divadlo Radar</p>
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/barka_01.jpg">
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/barka_02.jpg">
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/barka_03.jpg">
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/barka_04.jpg">
 
 <h1 class="video">Odlet výsadkářů</h1>
 <p>Z článku pro web MO ČR: <a href="http://www.mocr.army.cz/informacni-servis/jump/chrudimske-vysadkare-do-polska-prepravily-aliancni-c-17-globemaster-111428/">http://www.mocr.army.cz/informacni-servis/jump/chrudimske-vysadkare-do-polska-prepravily-aliancni-c-17-globemaster-111428/</a></p>
@@ -17,3 +21,7 @@ author: Marek Šmidrkal
 
 <h1 class="video">Budova Špejcharu v Želči</h1>
 <p>Před a po rekontrukcí historické budovy v Jihočeské Želči.</p>
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/spejchar_01.jpg">
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/spejchar_02.jpg">
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/spejchar_03.jpg">
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/spejchar_04.jpg">
