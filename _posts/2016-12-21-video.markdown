@@ -14,3 +14,7 @@ author: Marek Šmidrkal
 <h1 class="video">Generál ze žuly a bronzu</h1>
 <p>Krátký dokument mapující život generála Tomáše Sedláčka a vytvoření jeho pomníku na půdě Posádkového velitelství Praha.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ebUc5Fceuck?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h1 class="video">Slovak Shield 2016</h1>
+<p>Sestřih ze závěrečné epizody cvičení Slovak Shield 2016, kterého se ve vojenském výcvikovém prostoru Lešť účastnily armády zemí V4 posílené o Američany a Němce. Celkově se tohoto největšího cvičení na území Slovenska účastnilo 1700 vojáků a 400 kusů techniky.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/esNSotxzpNk?rel=0" frameborder="0" allowfullscreen></iframe>
