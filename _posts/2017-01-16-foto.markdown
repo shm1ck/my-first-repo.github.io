@@ -9,7 +9,11 @@ author: Marek Šmidrkal
 <p>Werich: Lakomá Barka, divadlení soubor CO?!, Divadlo Radar</p>
 
 <h1 class="video">Odlet výsadkářů</h1>
-<p>Krátký dokument mapující život generála Tomáše Sedláčka a vytvoření jeho pomníku na půdě Posádkového velitelství Praha.</p>
+<p>Z článku pro web MO ČR: <a href="http://www.mocr.army.cz/informacni-servis/jump/chrudimske-vysadkare-do-polska-prepravily-aliancni-c-17-globemaster-111428/">http://www.mocr.army.cz/informacni-servis/jump/chrudimske-vysadkare-do-polska-prepravily-aliancni-c-17-globemaster-111428/</a></p>
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/globemaster_01.jpg">
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/globemaster_02.jpg">
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/globemaster_03.jpg">
+<img src="http://mareksmidrkal.cz/media/img/orig/foto/globemaster_04.jpg">
 
 <h1 class="video">Budova Špejcharu v Želči</h1>
 <p>Před a po rekontrukcí historické budovy v Jihočeské Želči.</p>
