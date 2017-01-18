@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title:  "Blog"
 date:   2015-05-31 05:10:14 -0400
 categories: blog
