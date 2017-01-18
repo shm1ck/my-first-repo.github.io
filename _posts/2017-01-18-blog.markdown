@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Blog"
+date:   2015-05-31 05:10:14 -0400
+categories: blog
+author: Marek Šmidrkal
+---
+blog
