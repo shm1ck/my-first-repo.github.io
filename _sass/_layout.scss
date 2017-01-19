@@ -184,6 +184,14 @@
 
     > li {
         margin-bottom: 0px;
+    }
+}
+
+.blog-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
         background-color: lightgrey;
     }
 }
