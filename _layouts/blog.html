@@ -9,9 +9,9 @@ layout: default
 
         <a href="{{ post.url }}">
         {% if post.images %}
-        <img style="margin-bottom: 20px" src="{{ site.config.img.orig_url }}{{ post.images|first.image }}" />
+        <img style="margin-bottom: 20px" src="{{ site.config.img.orig_url }}{{ post.images|first.image }}" /></a>
         {% endif %}
-        <h1 class="blog-title" itemprop="name headline">{{ post.title }}</h1></a>
+        <h1 class="blog-title" itemprop="name headline">{{ post.title }}</h1>
       </li>
     {% endfor %}
   </ul>
