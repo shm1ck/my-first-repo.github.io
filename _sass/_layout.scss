@@ -213,6 +213,13 @@
 /**
  * Posts
  */
+.blog-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+    padding: 10px; 
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
