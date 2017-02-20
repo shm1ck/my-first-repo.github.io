@@ -12,10 +12,7 @@ layout: default
       <li>
         {% if post.images %}
             <a href="{{ post.url }}">
-              <figure>
                 <img src="{{ site.config.img.orig_url }}{{ post.images|first.image }}" />
-                <figcaption><p>{{ post.title }}</p></figcaption>
-              </figure>
             </a>
         {% endif %}
       </li>
