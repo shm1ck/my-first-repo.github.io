@@ -201,6 +201,10 @@
 	    -webkit-transform: translateY(40px);
 	    transform: translateY(40px);
     }
+	
+    > li:hover figcaption {
+            opacity: 1;
+    }
 }
 
 .blog-list {
