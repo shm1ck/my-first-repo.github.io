@@ -12,7 +12,7 @@ layout: default
       <li>
         {% if post.images %}
             <a href="{{ post.url }}">
-                <img src="{{ site.config.img.orig_url }}{{ post.images|first.image }}" onmouseover="this.src='{{ site.config.img.orig_url }}{{ post.images|first.image }}_rollover'" onmouseout="this.src='{{ site.config.img.orig_url }}{{ post.images|first.image }}'"/>
+                <img src="{{ site.config.img.orig_url }}{{ post.images|first.image }}" onmouseover="this.src='{{ site.config.img.orig_url }}{{ post.images|first.image }}_rollover.jpg'" onmouseout="this.src='{{ site.config.img.orig_url }}{{ post.images|first.image }}'"/>
             </a>
         {% endif %}
       </li>
