@@ -10,10 +10,13 @@ layout: default
   <ul class="post-list">
     {% for post in site.categories.tisk %}
       <li>
-
-      
         {% if post.images %}
-        <a href="{{ post.url }}"><img src="{{ site.config.img.orig_url }}{{ post.images|first.image }}" /></a>
+            <a href="{{ post.url }}">
+              <figure>
+                <img src="{{ site.config.img.orig_url }}{{ post.images|first.image }}" />
+                <figcaption>{{ post.title }}</figcaption>
+              </figure>
+            </a>
         {% endif %}
       </li>
     {% endfor %}
