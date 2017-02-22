@@ -3,6 +3,7 @@ layout: post
 title:  "Nezatlučeno"
 date:   2015-05-31 05:10:14 -0400
 categories: tisk
+permalink: /knihy/
 author: Marek Šmidrkal
 images:
   - "nezatluceno/01.jpg"
