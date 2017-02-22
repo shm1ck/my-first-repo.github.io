@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Knihy
-permalink: /Knihy/
+
 ---
 
 <ul class="post-list">
