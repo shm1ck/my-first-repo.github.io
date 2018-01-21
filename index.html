@@ -11,7 +11,7 @@ layout: default
       <li>
         {% if post.images %}
             <a href="{{ post.url }}">
-                <img src="{{ site.config.img.orig_url }}{{ post.images|first.image }}" />
+                <img src="/media/img/orig/{{ post.images|first.image }}" />
             </a>
         {% endif %}
       </li>
