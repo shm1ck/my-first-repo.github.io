@@ -1,9 +1,7 @@
 ---
 layout: post
-title: O mně
-permalink: /O mně/
-images:
-  - "about/01.jpg"
+title: About
+permalink: /about/
 ---
 <p>Kontaktovat mě můžete na mailu m.smidrkal@gmail.com</p>
 
