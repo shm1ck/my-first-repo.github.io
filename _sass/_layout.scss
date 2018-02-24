@@ -59,7 +59,11 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
-
+        
+        a.menu-icon {
+            border-bottom: none; 
+        }
+        
         .menu-icon {
             display: block;
             float: right;
