@@ -45,7 +45,11 @@ h1.video {
 img {
     max-width: 100%;
     vertical-align: middle;
-    border-top: 5px solid red;
+    padding-bottom: 30px; 
+    
+    &:last-of-type {
+        padding-botom: 0; 
+    }
 }
 
 
