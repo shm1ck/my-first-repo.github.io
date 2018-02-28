@@ -238,12 +238,16 @@ h1.blog-title {
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    font-size: 62px;
+    letter-spacing: 2px;
+    line-height: 1.2; 
+    font-weight: 600; 
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 36px; 
+        letter-spacing: 1px;
+        line-height: 1; 
+        font-weight: 300; 
     }
 }
 
