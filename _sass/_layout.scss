@@ -3,9 +3,10 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 5px solid $grey-color-dark;
     min-height: 56px; 
-    position: relative; 
+    position: fixed; 
+    left: 0; 
+    right: 0; 
     background-color: #f5f5f5; 
 
     // Positioning context for the mobile navigation icon
