@@ -55,23 +55,15 @@ img {
 
 //crossfade image effect
 
-.cf {
-    position: relative;
-    height: 895px;
-    width: 1340px;
-    margin-top: 30px; 
+img.stopro.najezd {
+	 -webkit-transition: opacity 1s ease-in-out;
+     -moz-transition: opacity 1s ease-in-out;
+     -o-transition: opacity 1s ease-in-out;
+     transition: opacity 1s ease-in-out;
 }
 
-.cf img {
-  position:absolute;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-.cf img.top:hover {
-  opacity:0;
+.najezd:hover {
+	opacity: 0; 
 }
 
 /**
