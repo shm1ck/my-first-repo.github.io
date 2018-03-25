@@ -90,21 +90,21 @@
 //            clear: both;
 //            display: none;
 //        }
+//
+//        &:hover .trigger {
+//            display: block;
+//            padding-bottom: 5px;
+//        }
 
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
+//        .page-link {
+//            display: block;
+//            padding: 5px 10px;
+//
+//            &:not(:last-child) {
+//                margin-right: 0;
+//            }
+//            margin-left: 20px;
+//        }
     }
 }
 
