@@ -5,7 +5,7 @@ date:   2017-06-19 08:16:14 -0400
 categories: tisk
 author: Marek Šmidrkal
 ---
-<img src="http://mareksmidrkal.cz/media/img/orig/molnar/01.jpg">
+
 
 <div>
   <div class="grid">
@@ -17,12 +17,10 @@ author: Marek Šmidrkal
   <div class="grid">
     <p>Malíř a voják Karol Molnár nadchl několik sběratelů umění svými obrazy a spojitostí s Františkem Kupkou. Vznikla tak první velká monografie tohoto výtvarníka.</p>
   </div>
-  </div>
 </div>
-
-<div>
+  
+  <img src="http://mareksmidrkal.cz/media/img/orig/molnar/01.jpg">
   <img src="http://mareksmidrkal.cz/media/img/orig/molnar/02.jpg">
   <img src="http://mareksmidrkal.cz/media/img/orig/molnar/03.jpg">
   <img src="http://mareksmidrkal.cz/media/img/orig/molnar/04.jpg">
   <img src="http://mareksmidrkal.cz/media/img/orig/molnar/05.jpg">
-</div>
