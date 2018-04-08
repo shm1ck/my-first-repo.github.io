@@ -289,6 +289,14 @@ h1.blog-title {
     }
 }
 
+post-padding {
+    padding: 100px 0 100px 0; 
+	
+    @include media-query($on-laptop) {
+        padding: 0; 
+    }
+}
+
 .post-content {
     margin-bottom: $spacing-unit;
 
