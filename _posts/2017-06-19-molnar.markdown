@@ -17,6 +17,7 @@ author: Marek Šmidrkal
   <div class="grid">
     <p>Malíř a voják Karol Molnár nadchl několik sběratelů umění svými obrazy a spojitostí s Františkem Kupkou. Vznikla tak první velká monografie tohoto výtvarníka.</p>
   </div>
+  </div>
 </div>
 
 <div>
