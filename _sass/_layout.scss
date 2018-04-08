@@ -272,6 +272,12 @@ h1.blog-title {
     padding: 10px; 
 }
 
+h1.post-title {
+     @include media-query($on-laptop) {
+     padding-bottom: 0; 
+    }	
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 	
