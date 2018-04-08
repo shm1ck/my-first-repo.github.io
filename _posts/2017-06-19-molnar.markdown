@@ -12,4 +12,4 @@ images:
   - "molnar/04.jpg"
   - "molnar/05.jpg"
 ---
-Malíř a voják Karol Molnár nadchl několik sběratelů umění svými obrazy a spojitostí s Františkem Kupkou. Vznikla tak první velká monografie tohoto výtvarníka.
+<p class="descp">Malíř a voják Karol Molnár nadchl několik sběratelů umění svými obrazy a spojitostí s Františkem Kupkou. Vznikla tak první velká monografie tohoto výtvarníka.</p>
