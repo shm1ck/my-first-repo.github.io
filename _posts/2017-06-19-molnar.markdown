@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postblank
 title:  "Karol Molnár"
 date:   2017-06-19 08:16:14 -0400
 categories: tisk
