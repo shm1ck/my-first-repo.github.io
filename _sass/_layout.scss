@@ -274,6 +274,10 @@ h1.blog-title {
 
 .post-header {
     margin-bottom: $spacing-unit;
+	
+     @include media-query($on-laptop) {
+         margin-bottom: 0; 
+    }
 }
 
 .post-title {
@@ -294,6 +298,14 @@ h1.blog-title {
 	
     @include media-query($on-laptop) {
         padding: 0; 
+    }
+}
+
+p.descp {
+    font-size: 34px; 
+	
+     @include media-query($on-laptop) {
+        font-size:22px; 
     }
 }
 
