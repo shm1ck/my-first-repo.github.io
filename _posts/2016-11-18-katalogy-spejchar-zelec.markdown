@@ -7,6 +7,7 @@ tags: kniha
 author: Marek Šmidrkal
 firstimages:
   - "katalogy-spejchar-zelec/01.jpg"
+  - "katalogy-spejchar-zelec/01-a.jpg"
 images:
   - "katalogy-spejchar-zelec/02.jpg"
   - "katalogy-spejchar-zelec/03.jpg"
