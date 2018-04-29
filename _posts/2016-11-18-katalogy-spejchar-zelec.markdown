@@ -1,6 +1,6 @@
 ---
 layout: postblank2
-title:  "Katalogy Obrazárny Špejchar Želeč"
+title:  "Obrazárna Špejchar Želeč"
 date:   2015-05-31 05:10:14 -0400
 categories: tisk
 tags: kniha
