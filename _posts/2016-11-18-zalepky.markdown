@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postblank2
 title:  "Zálepky, pečetky a jiné známky"
 date:   2015-05-31 05:10:14 -0400
 categories: tisk
@@ -8,5 +8,7 @@ images:
   - "zalepky/01.jpg"
   - "zalepky/02.jpg"
   - "zalepky/03.jpg"
+  - "zalepky/04.jpg"
+  - "zalepky/05.jpg
 ---
 Reklamní známky, známé také jako popelky filatelie. Nikdy nesloužily k odesílání dopisů, měly za úkol propagovat (podniky, firmy a společenské akce), zkrášlovat dopisní obálky či posloužit jako suvenýr nebo sběratelská rarita.
