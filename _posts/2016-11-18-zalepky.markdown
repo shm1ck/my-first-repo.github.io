@@ -4,8 +4,9 @@ title:  "Zálepky, pečetky a jiné známky"
 date:   2015-05-31 05:10:14 -0400
 categories: tisk
 author: Marek Šmidrkal
-images:
+firstimages:
   - "zalepky/01.jpg"
+images:
   - "zalepky/02.jpg"
   - "zalepky/03.jpg"
   - "zalepky/04.jpg"
