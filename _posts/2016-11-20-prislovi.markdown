@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: postblank2
 title:  "Přísloví v obrázcích Vinci Hehla"
 date:   2015-05-31 05:10:14 -0400
 categories: tisk
 author: Marek Šmidrkal
-images:
+firstimages:
   - "prislovi/01.jpg"
+images:
   - "prislovi/02.jpg"
   - "prislovi/03.jpg"
 ---
