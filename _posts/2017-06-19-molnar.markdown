@@ -7,6 +7,7 @@ author: Marek Šmidrkal
 firstimages:
   - "molnar/01.jpg"
 images:
+  - "molnar/02a.jpg
   - "molnar/02.jpg"
   - "molnar/03.jpg"
   - "molnar/04.jpg"
