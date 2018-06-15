@@ -7,7 +7,6 @@ author: Marek Šmidrkal
 firstimages:
   - "kolovrz/01.jpg"
 images:
-  - "kolovrz/01.jpg"
   - "kolovrz/02.jpg"
   - "kolovrz/03.jpg"
   - "kolovrz/04.jpg"
