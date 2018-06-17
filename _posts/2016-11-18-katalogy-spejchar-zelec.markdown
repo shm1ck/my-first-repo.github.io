@@ -16,6 +16,7 @@ images:
   - "katalogy-spejchar-zelec/06.jpg"
   - "katalogy-spejchar-zelec/07.jpg"
   - "katalogy-spejchar-zelec/08.jpg"
+  - "katalogy-spejchar-zelec/08a.jpg"
   - "katalogy-spejchar-zelec/09.jpg"
   - "katalogy-spejchar-zelec/10.gif"
   - "katalogy-spejchar-zelec/11.jpg"
