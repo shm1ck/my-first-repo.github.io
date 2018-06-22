@@ -13,4 +13,5 @@ images:
   - "kolovrz/05.jpg"
   - "kolovrz/06.jpg"
 ---
-Kniha čtenářům přibližuje historii reklamních plakátů z první poloviny 20.&nbsp;století. Výtvarně se na nich podíleli nadaní výtvarníci, jako např. Leo Heilbrunn pro firmu Baťa nebo Emil Weiss pro známé módní domy. Kolovrz byla údajně mast neboli vazelína, která měla zabránit skřípění kol. Ale je tomu opravdu tak? Zkuste zapátrat.
+<p class="descp">Kniha čtenářům přibližuje historii reklamních plakátů z první poloviny 20.&nbsp;století. Výtvarně se na nich podíleli nadaní výtvarníci, jako např. Leo Heilbrunn pro firmu Baťa nebo Emil Weiss pro známé módní domy. Kolovrz byla údajně mast neboli vazelína, která měla zabránit skřípění kol. Skutečně existovala?</p>
+<p class="descp">Celou publikací provází motiv kola, které mění svou barevnost. Na druhé straně přebalu je vytištěna reprodukce reklamního plakátu, která může posloužit jako dekorace v dílně nebo garáži.</p>
