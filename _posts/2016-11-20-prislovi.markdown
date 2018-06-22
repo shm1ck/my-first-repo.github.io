@@ -10,4 +10,4 @@ images:
   - "prislovi/02.jpg"
   - "prislovi/03.jpg"
 ---
-Lidová moudrost v obrazech. Kolekce obrázků Vincence Hehla, která zachycuje nejrůznější přísloví. Dárková knížka s mírným edukativním přesahem.
+<p class="descp">Lidová moudrost v obrazech. Kolekce obrázků Vincence Hehla, která zachycuje nejrůznější přísloví. Dárková knížka s mírným edukativním přesahem.</p>
