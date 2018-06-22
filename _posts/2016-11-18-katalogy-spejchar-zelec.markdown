@@ -21,4 +21,5 @@ images:
   - "katalogy-spejchar-zelec/10.gif"
   - "katalogy-spejchar-zelec/11.jpg"
 ---
-<p class="descp">Pro Muzeum a obrazárnu Špejchar Želeč jsem navrhl vizuální styl. Jeho součástí byla i podoba katalogů k výstavám. Osvědčil se malý formát o velikosti A6 na šířku, který působí neobvykle. Pro menší regionální výstavní síň se ukázal jako velmi praktický. Snadno se posílá poštou s pozvánkami na vernisáže, působí vřele, stejně jako prostor želečského Špejcharu. Velkoformátovému katalogu, který dá vyniknout reprodukcím výtvarných děl, se sice nevyrovná, ale takové ambice ani nemá.</p>
+<p class="descp">Historická budova špejcharu leží v jihočeské Želči. Návštěvníkům nabízí stálou expozici zemědělské techniky a v prvním patře pak výstavy výtvarného umění.</p>
+<p class="descp">Výraznou budovu, která je dominantou obce, reflektuje i logo od kterého se pak odvíjí vizuální styl želečského špejcharu. Každá výstava má svoji vlastní barvu, která se pak objevuje i na dalších materiálech jako jsou katalogy a pozvánky.</p>
