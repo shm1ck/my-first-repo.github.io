@@ -5,7 +5,6 @@ title: Kruhový výběr
 date:   2018-10-27 05:10:14 -0400
 categories: photoshop
 author: Marek Šmidrkal
-permalink: blog/
 ---
 <h1>How To Create a Stack of 3D Characters in Adobe Photoshop</h1>
 
