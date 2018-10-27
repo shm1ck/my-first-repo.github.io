@@ -1,5 +1,5 @@
 ---
-layout: bl-post
+layout: bl-default
 bl-title:  "Jak udělat kruhový výběr v Photoshopu / DTP s přesahem"
 date:   2013-05-31 05:10:14 -0400
 categories: photoshop
