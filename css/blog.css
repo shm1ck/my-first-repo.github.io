@@ -2,3 +2,256 @@
 css for DTP s presahem
 ver 1
 */
+
+body {
+	font-family: arial, sans;
+	margin: 0; 
+}
+
+p {
+	line-height: 35px; 
+	letter-spacing: -0.3px; 
+	font-size: 22px; 
+	color: rgb(120, 120, 120);
+}
+
+p:last-child {
+    margin: 0px; 
+}
+
+h1, h2, h3, p {
+	margin-top: 0px;
+}
+
+h1 {
+	font-size: 50px; 
+	line-height: 65px; 
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 25px;
+	line-height: 37px;
+}
+
+header {
+	min-height: 50px;  
+	background-color: rgba(255,255,255,0.65);
+	left: 0;
+	right: 0;
+	position: fixed;
+	border-bottom: 3px solid black;
+}
+
+header:hover {
+	border-bottom: 3px solid #E749A0; 
+}
+
+ul {
+	padding: 0; 
+	margin: 0; 
+	float: right;
+}
+
+li{
+	list-style-type: none; 
+	float: left; 
+	padding-right: 20px;
+	line-height: 50px; 
+}
+
+li:last-child {
+	padding-right: 0px; 
+}
+
+.container {
+	margin: auto;
+	max-width: 1000px; 
+}
+
+.main-padding {
+	padding-top: 90px;
+}
+
+.page-title {
+	line-height: 50px; 
+	float: left;
+	color: #E749A0; 
+	text-decoration: none; 
+	font-size: 30px; 
+	letter-spacing: 1.8px; 
+	text-transform: uppercase;
+}
+
+.page-title:hover {
+	color: black;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 47.5% 47.5%; 
+	grid-gap: 5%;
+	grid-row-gap: 0px; 
+}
+
+.grid-4 {
+	display: grid;
+	grid-template-columns: 21.25% 21.25% 21.25% 21.25%;
+	grid-gap: 5%;
+	grid-row-gap: 13%;
+	margin-top: 55px;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.box {
+	margin-bottom: 10%; 
+}
+
+.icon {
+	font-size: 140px; 
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.icon-descp {
+	font-size: 24px;
+	line-height: 31px;
+}
+
+.title-padding {
+	padding-top: 5px; 
+}
+
+.width-100 {
+	max-width: 100%; 
+}
+
+.descp {
+	font-size: 14px; 
+	font-weight: 600; 
+	line-height: 21px; 
+}
+
+.select {
+	color: #E749A0;
+}
+
+.seznam {
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 1069px) {
+	h1, h2, p {
+		padding-left: 5%; 
+		padding-right: 5%; 
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 33px; 
+	}
+
+	ul {
+		padding-right: 5%;
+	}
+
+	h1 {
+		font-size: 35px;
+		line-height: 42px; 
+	}
+
+	h2 {
+		font-size: 21px;
+		line-height: 32px; 
+	}
+
+	.page-title {
+		padding-left: 5%; 
+		line-height: 50px; 
+		float: left;
+		font-size: 20px;
+	}
+
+	.grid {
+		display: block;
+	}
+
+	.grid-4 {
+	display: grid;
+	grid-template-columns: 21.25% 21.25% 21.25% 21.25%;
+	grid-gap: 5%;
+	grid-row-gap: 11%;
+	margin-top: 55px;
+	padding: 0 5%;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+	.box {
+		margin-bottom: 5%; 
+	}
+
+	.width-100 {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.grid-4 {
+		display: grid;
+		grid-template-columns: 47.5% 47.5%; 
+		grid-gap: 5%;
+	}
+
+	.no-margin {
+	margin: 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	ul {
+		float: none;
+		padding-left: 5%;
+	}
+
+	.main-padding {
+		padding-top: 130px; 
+	}
+
+	.page-title {
+		float: none;
+	}
+
+	.grid-4 {
+		display: block;
+	}
+
+	.no-margin {
+	margin: 0;
+	}
+
+	.icon {
+		margin-bottom: 20%; 
+	}
+
+	.icon:last-child {
+		margin-bottom: 10%; 
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.main-padding {
+		padding-top: 27px; 
+	}
+
+	header {
+	position: static;
+	min-height: 100px; 
+	}
+}
