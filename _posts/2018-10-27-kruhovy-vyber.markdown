@@ -2,7 +2,7 @@
 layout: bl-default
 bl-title:  "Jak udělat kruhový výběr v Photoshopu / DTP s přesahem"
 title: Kruhový výběr
-date:   2013-05-31 05:10:14 -0400
+date:   2018-10-27 05:10:14 -0400
 categories: photoshop
 author: Marek Šmidrkal
 permalink: blog/
