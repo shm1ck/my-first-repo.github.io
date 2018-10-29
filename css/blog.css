@@ -226,7 +226,7 @@ li:last-child {
 	}
 	
 	ul {
-		float: none;
+		float: right;
 		padding-left: 5%;
 	}
 
