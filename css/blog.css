@@ -152,7 +152,7 @@ li:last-child {
 @media only screen and (max-width: 1069px) {
 	h1, h2, p {
 		padding-left: 5%; 
-		padding-right: 5%; 
+		padding-right: 15%; 
 	}
 
 	p {
@@ -220,6 +220,11 @@ li:last-child {
 }
 
 @media only screen and (max-width: 600px) {
+	h1, h2, p {
+		padding-left: 5%; 
+		padding-right: 5%; 
+	}
+	
 	ul {
 		float: none;
 		padding-left: 5%;
