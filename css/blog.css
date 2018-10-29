@@ -230,12 +230,8 @@ li:last-child {
 		padding-left: 5%;
 	}
 
-	.main-padding {
-		padding-top: 130px; 
-	}
-
 	.page-title {
-		float: none;
+		float: left;
 	}
 
 	.grid-4 {
