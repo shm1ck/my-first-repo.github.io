@@ -15,28 +15,9 @@ permalink:
 				<p>Nejprve budeme potřebovat layout stránky, který si vložíme do A-vzoru. Jako příklad jsem použil fiktivní katalog nabízející kytary. Na jedné stránce mám dvě položky. Obrázek nástroje a pod ním krátký popis (v reálu by byl o dost delší, ale pro demonstraci postačí takto).</p>
 				<p>Zatím si vystačíme se dvěma textovými rámečky, které navzájem provážeme (po importu textu se nám popisky budou přelévat z jednoho rámečku do druhého). Rámečky na obrázky nebudeme ve vzoru potřebovat.</p>
 				<p>Přesuneme se na první stranu dokumentu a vložíme text z wordu pomocí ctrl+d (také viz. soubor>umístit). Se shiftem klikneme do prvního textového rámečku a popisky automaticky natečou do dalších textových polí, které se nově vytvořili i s dalšími stránkami (automatické nalití způsobil zmáčknutý shift při vložení textu).</p>
-				<p>Nyní je zapotřebí text správně naformátovat, nadpisu dát samostatný odstavcový styl a jemu, mimo jiné, nastavit v kartě volby rozdělování odstavců hodnotu nabídky začátek odstavce na 'v následujícím rámečku'. Tím se nám nadpisy budou vyskytovat pouze jednou v rámečku a další výskyt přeteče do dalšího. Tím máme vyřešený tok textu. Teď zbývá vložit obrázky a správně je ukotvit.
-					<p>K textu lze ukotvit objekt a ten se pak bude pohybovat společně s textem. Jde jen o to správně nastavit kde se má tento objekt objevovat při pohybu tetxu. Vytvoříme si rámeček pro obrázek a vyjmeme ho pomocí ctrl+x. Textovým nástrojem klikneme na konec řádku nadpisu a opět vložíme (ctrl+v). Obrázek se ukotvil k řádku a to není přesně to co potřebujeme. Rámeček fotografie má vpravo nahoře malou kotvu, na kterou s levým altem klikneme; otevřou se volby ukotveného objektu. Polohu nastavíme na vlastní. Referenční bod ukotveného objektu zaklikneme vlevo dole. X i Y požadujeme vzhledem k textovému rámečku. Referenční bod ukotvené polohy je vlevo nahoře. Posun X je 0 mm (chceme aby obrázek lícoval s levým okrajem textového rámečku). Posun svislé osy Y je stejná jako výška jednoho řádku, ale v záporné hodnotě, aby se obrázek posunul nahoru nad rámeček. Vložená hodnota je tedy -12 ob.</p>
-			</div>
-
-			<div class="box">
-				<img class="width-100 title-padding" src="/media/img/orig/tekouci-grid/01.png">
-			</div>
-
-			<div class="box">
-				<p>Create a new document of around 2000x2000px in size. Set out the first of many letters as an individual text element using the font of your choice. Checking the Uppercase option will make it easier to edit each subsequent character without the need to hold the Shift key to capitalise the letter.</p>
-			</div>
-
-			<div class="box">
-				<img class="width-100 title-padding" src="https://blog.spoongraphics.co.uk/wp-content/uploads/2018/3d-type/10.jpg">
-				<p class="descp">Create a new document of around 2000x2000px in size. Checking the Uppercase option will make it easier.</p>
-			</div>
-
-			<div class="box">
-				<p>With the Move tool activated, hold the ALT key and drag a duplicate of the text element into some empty space. Double click to edits its contents and change the character. Continue duplicating the element to lay out the entire alphabet..</p>
-			</div>
-
-			<div class="box">
-				<img class="width-100 title-padding" src="https://blog.spoongraphics.co.uk/wp-content/uploads/2018/3d-type/2.jpg">
+				<p>Nyní je zapotřebí text správně naformátovat, nadpisu dát samostatný odstavcový styl a jemu, mimo jiné, nastavit v kartě volby rozdělování odstavců hodnotu nabídky začátek odstavce na 'v následujícím rámečku'. Tím se nám nadpisy budou vyskytovat pouze jednou v rámečku a další výskyt přeteče do dalšího. Tím máme vyřešený tok textu. Teď zbývá vložit obrázky a správně je ukotvit.</p>
+				<p>K textu lze ukotvit objekt a ten se pak bude pohybovat společně s textem. Jde jen o to správně nastavit kde se má tento objekt objevovat při pohybu tetxu. Vytvoříme si rámeček pro obrázek a vyjmeme ho pomocí ctrl+x. Textovým nástrojem klikneme na konec řádku nadpisu a opět vložíme (ctrl+v). Obrázek se ukotvil k řádku a to není přesně to co potřebujeme. Rámeček fotografie má vpravo nahoře malou kotvu, na kterou s levým altem klikneme; otevřou se volby ukotveného objektu. Polohu nastavíme na vlastní. Referenční bod ukotveného objektu zaklikneme vlevo dole. X i Y požadujeme vzhledem k textovému rámečku. Referenční bod ukotvené polohy je vlevo nahoře. Posun X je 0 mm (chceme aby obrázek lícoval s levým okrajem textového rámečku). Posun svislé osy Y je stejná jako výška jednoho řádku, ale v záporné hodnotě, aby se obrázek posunul nahoru nad rámeček. Vložená hodnota je tedy -12 ob. Obdobným způsobem lze nastavit, aby obrázek byl ukotven pod či vedle textového rámce (je potřeba si trochu pohrát s nastavením ukotveného objektu, které mi nepřijde zrovna intuitivní).</p>
+				<p>Aby se nám další obrázky vkládaly již s tímto nastavením kotvení, pomůže nám objektový styl. Pomocí ctrl+F7 vyvoláme seznam objektových stylů, označíme ukotvený rámeček obrázku a klikneme na možnost vytvořit objektový styl (ikona lístku pod seznamem stylů). Vytvořil se nám nový řádek v seznamu s popisem Nový objektový styl 1. Klikneme na něj a dalším klikem můžeme přejmenovat na relevatnější název. Teď už stačí rozkopírovat rámečky obrázků k dalším nadpisům jako jsme to udělali s tímto prvním.</p>
+				<p>A máme připraveno. Při vkládání či odebírání položek to chce trochu cviku, je potřeba myslet na správné formátování nadpisů. Pokud budete chtít celou položku vymazat, stačí označit text a ten smazat, ukotvený obrázek se smaže také.</p>
 			</div>			
 		</div>
