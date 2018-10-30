@@ -258,6 +258,6 @@ li:last-child {
 
 	header {
 	position: static;
-	min-height: 100px; 
+	min-height: 50px; 
 	}
 }
