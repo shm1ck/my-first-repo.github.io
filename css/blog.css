@@ -149,6 +149,10 @@ li:last-child {
 	padding: 0;
 }
 
+.fas {
+	color: darkgrey;
+}
+
 @media only screen and (max-width: 1069px) {
 	h1, h2, p {
 		padding-left: 5%; 
