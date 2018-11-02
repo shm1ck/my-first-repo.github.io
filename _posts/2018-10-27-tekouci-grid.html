@@ -11,20 +11,43 @@ permalink:
 
 		<div class="grid">
 			<div class="box">
-				<h2>Málokdy se povede dostat od klienta přesné podklady, které se pak už budou měnit jen v dílčích detailech. V případě katalogu se můžeme dostat do situace, že je potřeba nějaké položky přidat nebo naopak vymazat. Pokud je jedna položka na stránce, jsou změny snadné, ale pokud je položek na stránce více a těch je v součtu třeba pak stopadesát, tak se nějaký pohyblivý systém, který umožňuje cokoliv změnit, hodí.</h2>
+				<h2>Pomocí zřetězení textu a ukotvení objektů (v našem případě obrázků) lze elegantně připravit katalog s pohyblivými položkami. Tento postup oceníme v případě, že budeme chtít do hotové sazby udělat větší změny (přidat nebo vymazat položky).</h2>
 			</div>
 			
 			<div class="box">
 			<img class="width-100 title-padding" src="../media/img/orig/tekouci-grid/01.png">	
 			</div>
-			
 			<div class="box">
-				<p>Nejprve budeme potřebovat layout stránky, který si vložíme do A-vzoru. Jako příklad jsem použil fiktivní katalog nabízející kytary. Na jedné stránce mám dvě položky. Obrázek nástroje a pod ním krátký popis (v reálu by byl o dost delší, ale pro demonstraci postačí takto).</p>
-				<p>Zatím si vystačíme se dvěma textovými rámečky, které navzájem provážeme (po importu textu se nám popisky budou přelévat z jednoho rámečku do druhého). Rámečky na obrázky nebudeme ve vzoru potřebovat.</p>
-				<p>Přesuneme se na první stranu dokumentu a vložíme text z wordu pomocí ctrl+d (také viz. soubor>umístit). Se shiftem klikneme do prvního textového rámečku a popisky automaticky natečou do dalších textových polí, které se nově vytvořili i s dalšími stránkami (automatické nalití způsobil zmáčknutý shift při vložení textu).</p>
-				<p>Nyní je zapotřebí text správně naformátovat, nadpisu dát samostatný odstavcový styl a jemu, mimo jiné, nastavit v kartě volby rozdělování odstavců hodnotu nabídky začátek odstavce na 'v následujícím rámečku'. Tím se nám nadpisy budou vyskytovat pouze jednou v rámečku a další výskyt přeteče do dalšího. Tím máme vyřešený tok textu. Teď zbývá vložit obrázky a správně je ukotvit.</p>
-				<p>K textu lze ukotvit objekt a ten se pak bude pohybovat společně s textem. Jde jen o to správně nastavit kde se má tento objekt objevovat při pohybu tetxu. Vytvoříme si rámeček pro obrázek a vyjmeme ho pomocí ctrl+x. Textovým nástrojem klikneme na konec řádku nadpisu a opět vložíme (ctrl+v). Obrázek se ukotvil k řádku a to není přesně to co potřebujeme. Rámeček fotografie má vpravo nahoře malou kotvu, na kterou s levým altem klikneme; otevřou se volby ukotveného objektu. Polohu nastavíme na vlastní. Referenční bod ukotveného objektu zaklikneme vlevo dole. X i Y požadujeme vzhledem k textovému rámečku. Referenční bod ukotvené polohy je vlevo nahoře. Posun X je 0 mm (chceme aby obrázek lícoval s levým okrajem textového rámečku). Posun svislé osy Y je stejná jako výška jednoho řádku, ale v záporné hodnotě, aby se obrázek posunul nahoru nad rámeček. Vložená hodnota je tedy -12 ob. Obdobným způsobem lze nastavit, aby obrázek byl ukotven pod či vedle textového rámce (je potřeba si trochu pohrát s nastavením ukotveného objektu, které mi nepřijde zrovna intuitivní).</p>
-				<p>Aby se nám další obrázky vkládaly již s tímto nastavením kotvení, pomůže nám objektový styl. Pomocí ctrl+F7 vyvoláme seznam objektových stylů, označíme ukotvený rámeček obrázku a klikneme na možnost vytvořit objektový styl (ikona lístku pod seznamem stylů). Vytvořil se nám nový řádek v seznamu s popisem Nový objektový styl 1. Klikneme na něj a dalším klikem můžeme přejmenovat na relevatnější název. Teď už stačí rozkopírovat rámečky obrázků k dalším nadpisům jako jsme to udělali s tímto prvním.</p>
-				<p>A máme připraveno. Při vkládání či odebírání položek to chce trochu cviku, je potřeba myslet na správné formátování nadpisů. Pokud budete chtít celou položku vymazat, stačí označit text a ten smazat, ukotvený obrázek se smaže také.</p>
-			</div>			
+			Nejprve nevrhneme layout a připravíme si pro něj vzorovou stránku. Textové rámečky zřetězíme, pro obrázky si připravíme prázdné rámečky.
+			</div>
+			<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/tekouci-grid/02.jpg">
+			</div>
+			<div class="box">
+Nalejeme text popisu jednotlivých položek (. Pro první odstavec položky, který je v tomto případě nadpis, vytvoříme odstavcový styl, který, mimo jiné, bude mít ve volbách rozdělování odstavců nastavený začátek odstavce v následujícím rámečku. Tím se nám popisky rozhodí do jednotlivých textových polí.
+			</div>
+			<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/tekouci-grid/03.jpg">
+			</div>
+			<div class="box">
+Pomocí najít a nahradit snadno přiřadíme tento styl všem nadpisům. Do pole hledat formát naklikáme parametry nadpisu (v našem případě je formátování z wordu Calibri bold, velikos 11 b.). A do změnit na formát vybereme náš nově vytvořený styl. Klikneme na nahradit vše a máme nastylované nadpisy a rozhozené texty do jednotlivých rámečků. Obdobným způsobem lze nastylovat zbytek textů.
+			</div>
+			<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/tekouci-grid/04.jpg">
+			</div>
+			<div class="box">
+Po přiřazení stylů je dobré překontrolovat jestli se vše provedlo, jak jsme požadovali. Já mám některé nadpisy moc dlouhé (chtěl jsem je jenom na jeden řádek), budu muset upravovat šířku rámečků a ještě mi tam vadí prázdné odstavce, ale ty mohu smazat pomocí najít a nahradit přednastaveným dotazem více konců odstavců na jeden. Podobných situací se může vyskytnout vícero. Někdy se ukáže, že máme špatně připravenou vzorovou stránku. Například velikost a umístění textových rámečků. I po nalití textů, lze hromadně tyto rámečky upravit ve vzoru. Pokud ale nějaký element upravíme na stránce v sazbě, úprava vzoru už nebude mít na takto změněné objekty vliv.
+			</div>
+			<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/tekouci-grid/05.jpg">
+			</div>
+			<div class="box">
+Texty máme připravené. Zřetězení nám zajistí, že když budeme chtít nějakou položku přidat, tak se nám budou automaticky přelívat do dalších rámečků, to samé se bude dít při mazání akorát naopak. Teď zbývá správně přidat obrázky. Pomocí umístit (ctrl+D nebo command+D na macu) vložíme obrázek k položce do rámečku, který máme připravený ze vzorové stránky. Upravíme oříznutí obrázku. Vybereme si rámeček, a přetáhneme modrý bod, který je vpravo nahoře k nadpisu. Tím vytvoříme ukotvení.
+			</div>
+			<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/tekouci-grid/06.jpg">
+			</div>
+			<div class="box">
+Takto přidáme všechny obrázky. Teď když se nám pohne nadpis, pohne se i obrázek a to u všech položek.
+			</div>
 		</div>
