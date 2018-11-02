@@ -4,7 +4,7 @@ ver 1
 */
 
 body {
-	font-family: arial, sans;
+	font-family: "Adelle-sans", arial, sans;
 	margin: 0; 
 }
 
@@ -84,6 +84,7 @@ li:last-child {
 	color: #E749A0; 
 	text-decoration: none; 
 	font-size: 30px; 
+	font-family: "adelle", arial, sans; 
 	letter-spacing: 1.8px; 
 	text-transform: uppercase;
 }
@@ -149,10 +150,14 @@ li:last-child {
 	padding: 0;
 }
 
+.fas {
+	color: darkgrey;
+}
+
 @media only screen and (max-width: 1069px) {
 	h1, h2, p {
 		padding-left: 5%; 
-		padding-right: 5%; 
+		padding-right: 15%; 
 	}
 
 	p {
@@ -220,17 +225,18 @@ li:last-child {
 }
 
 @media only screen and (max-width: 600px) {
+	h1, h2, p {
+		padding-left: 5%; 
+		padding-right: 5%; 
+	}
+	
 	ul {
-		float: none;
+		float: right;
 		padding-left: 5%;
 	}
 
-	.main-padding {
-		padding-top: 130px; 
-	}
-
 	.page-title {
-		float: none;
+		float: left;
 	}
 
 	.grid-4 {
@@ -257,6 +263,6 @@ li:last-child {
 
 	header {
 	position: static;
-	min-height: 100px; 
+	min-height: 50px; 
 	}
 }
