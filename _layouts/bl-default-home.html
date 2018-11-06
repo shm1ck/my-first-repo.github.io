@@ -8,7 +8,18 @@
     {% include bl-header.html %}
 
     <div class="container main-padding">
-      {{ content }}
+      <h1>{{ page.title }}</h1>
+      
+        <div class="grid-4">
+      {% for page in site.tags.blog %}
+			    <div class="box icon">
+			      <a href="../{{ page.permalink }}">
+			    		<i class="{{ page.font-awesome }}"></i>
+			    		<div class="icon-descp">{{ page.title }}</div>
+			    	</a>
+			    </div>
+      {% endfor %}
+        </div>
     </div>
 
   </body>
