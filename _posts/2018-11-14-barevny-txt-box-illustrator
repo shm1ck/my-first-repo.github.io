@@ -1,0 +1,25 @@
+---
+layout: bl-post
+bl-title:  "Automatický textový box s barevným pozadím v Illustratoru / DTP s přesahem"
+title: Automatický textový box s barevným pozadím v Illustratoru
+date:   2018-11-14 05:10:14 -0400
+categories: illustrator
+tags: blog
+author: Marek Šmidrkal
+permalink: barevny-txt-box-illustrator
+font-awesome: fas fa-font
+---		
+			<div class="box">
+				<h2>Illustratoru vždy chyběl rozumný nástroj na práci s textem (ve srovnání s InDesignem). Pokud chci vytvořit box s textem uvnitř a barevným pozadím, tak nejjednodušší postup je napsat text a pod něj vložit objekt, čtverec, s barevnou výplní. Stejného výsledku lze dosáhnout i jinak.</h2>
+			</div>
+			
+			<div class="box">
+          <p>V první řadě si napíši text (textovým nástrojem jenom kliknu, nedělám textový rámeček) a naformátuji ho (můžu si vytvořit znakový styl, protože tento postup formátuje jenom podbarvení rámečku). A pak udělám následující postup:</p>
+
+          <p>Nástrojem pro výber vyberu text. V kartě vzhled přidám novou výplň a posunu ji pod řádek 'znaky'.<br>
+          Kliknu na řádek výplň tak, abych ji měl označenou a poté dám efekt>převést na objekt>obdélník
+          Nastavím si odsazení okrajů.<br>
+          Pokud se mi nelíbí vycentrování textu, rozbalím si výplň v kartě vzhled, označím řádek obdélník a dole v nabídce efektů (ikona 'fx') vyberu Deformovat a transaformovat>transformavat. Zde si mohu pomocí táhel v rámečku 'Posunout' nastavit případný posun obdélníku.</p>
+
+          <p>Pokud chci toto naformátování snadno aplikovat, vytvořím si nový grafický styl (nástrojem pro výběr kliknu na text a v kartě grafické styly kliknu na nový). Poté lze tento rámeček aplikovat na další texty (pozor, text se ale nezformátuje, na to je potřeba znakový styl zvlášť). Pozor, v kartě grafických stylů, v menu (které otevřeme vpravo nahoře v rohu) nesmí být označená možnost změnit barvu znaků!</p>
+			</div>
