@@ -69,6 +69,18 @@ li:last-child {
 	padding-right: 0px; 
 }
 
+code {
+    background-color: #2b2b2b;
+    color: #fff;
+    max-width: 100%;
+    overflow-x: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0 10px;
+    font-family: "adelle", monospace;
+}
+
 .container {
 	margin: auto;
 	max-width: 1000px; 
