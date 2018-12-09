@@ -1,0 +1,171 @@
+---
+layout: bl-post
+bl-title:  "Příprava tiskových dat / DTP manuál"
+title: Příprava tiskových dat
+date:   2018-12-04 05:10:14 -0400
+categories: indesign
+tags: 
+author: Marek Šmidrkal
+permalink: priprava-tiskovych-dat
+font-awesome: fas fa-print
+published: true
+---
+<h2>Při přípravě tiskových dat platí, že když přesně nevíte jak je připravit, zeptejte se na to svého tiskaře a ten vám poradí. Níže vám předám pár praktických postřehů, jak připravit tisková pdf z InDesignu.<h2>
+
+<div class="box">
+<h2>Nastavení formátu v InDesignu</h2>
+<p>Jako základ pro export tiskových dat považuji správné nastavení formátu stránky, který zadáváme při vytváření nového dokumentu. Vkládáme vždy tzv. <code>čistý formát.</code> Jde o rozměry tiskoviny po knihařském zpracování, tzn. ořezu, případném složení a sešití. Příklad: u skládačky DL na výšku zadám 100&times;210 mm, u časopisu formátu A4 zadám 210&times;297 mm. Téměř vždy je nutné připravit obálku jako samostatné pdf.</p>
+<p>U velkých formátů se často používá zmenšené měřítko (většinou 1:10). Takže pokud čistý formát je 1x2 metry, tak stránka v InDesignu bude mít nastaveno 0,1&times;0,2 m (nebo 10&times;20 cm; InDesign umí většinu běžných jednotek a sám si je převede, když je třeba). U velkoplošného tisku si vždy vyžádejte technickou specifikaci.</p>
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/01.jpg">
+<p class="descp">Správné nastavení formátu</p>
+</div>
+
+<div class="box">
+	<h2>Spadávka a popis</h2>
+	<p>Pokud grafika zasahuje k okrajům stránky je potřeba nastavit spadávku dokumentu. Tisk do úplného kraje vzniká tak, že grafika 'přepadává' do spadávky a po ořezu na čistý formát vznikne 'bezokrajový tisk'. Běžně se nastavuje na 3 mm, ale např. u inzerátů do časopisu po mně většinou chtějí 5 mm. Je dobré vědět požadavek na spadávku na začátku práce, aby se pak nemusela předělávat.</p>
+
+	<p>Oblast popisu zase tak často nevyužijete. Proto ji můžete klidně nastavit na 0 mm a dál ji neřešit. InDesign do ní vkládá ořezové značky a další informace. Pokud po vás tiskař požaduje nějaké extra značky, které nejdou generovat automaticky, tak v tuhle chvíli využijete popis, do kterého tyto značky vložíte ručně.</p>
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/02.gif">
+<p class="descp">Čistý formát a formát se spadávkou a popisem. V InDesignu mezi těmito náhledy lze přepínat klávesou 'W'.</p>
+</div>
+
+<div class="box">
+	<h2>Drobné tiskoviny se skládáním</h2>
+	<p>Připravit pro tisk jeden list papíru, ať už vizitku nebo leták je celkem snadné, stačí správně nastavit formát a spadávku (viz. výše). Pokud se má leták skládat, je potřeba připravit dokument trochu jinak. Dejme tomu, že potřebujeme formát DL složit z A4, takže ve výsledku se bude skládat dvakrát. Stránku si opět nastavím na čistý formát (tedy po složení). Tzn. 100&times;210mm a zapnu si protilehlé stránky. Přidám si 6 stran (přední strana má tři, stejně tak zadní). Otevřu si menu v panelu <code>stránky</code> a zruším zaškrtnutí u volby <code>Povolit přemístění stránek dokumentu.</code> To mi umožní dávat k sobě více než dvě stránky.</p>
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/03.jpg">
+</div>
+
+<div class="box">
+	<p>Teď si přeskládám stránky tak, abych měl vždy u sebe tři a tři. První lichá stránka mi tam zůstala, tu si můžu smazat. Teď vidím rozložené DL před sebou včetně toho kde mám sklady a při exportu se mi značky nastaví automaticky. Stačí zaškrtnout <code>Exportovat jako dvoustránky</code> a ve značky a spadávky <code>ořezové značky a značky spadávek</code> O exportu si řekneme více později.</p>
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/04.jpg">
+<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/05.jpg">
+<p class="descp">Značky se automaticky nastavily v pdf během exportu z InDesignu.</p>
+</div>
+
+<div class="box">
+	<h2>Vlastní značky</h2>
+	<p>Občas budu přece jenom potřebovat nastavit vlastní značky. Třeba u nějakého velkého plakátu, který bude několikorát složený. Na to nám právě poslouží oblast popisu. Tam můžu zanést značky ručně nebo si pomoci skriptem <code>CropMarks.jsx,</code> který je v InDesignu integrovaný. Umí vložit značky k bodům objektů. Značky vkládejte až za spadávku.</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/06.jpg">
+	<div class="descp">Vlastní značky lze umístit pomocí skriptu.</div>
+</div>
+
+<div class="box">
+	<h2>Vnitřek a obálka zvlášť, vazba V1</h2>
+	<p>Pro knihy a brožury je téměř vždy potřeba vytvořit obálku (u měkkých vazeb) nebo potah desek (u tuhých vazeb) zvlášť. Příprava probíhá podobně jako jsem to popsal u přípravy DL výše. U vazby V1 (noviny, časopisy či brožury svázané skobou) je to snadné, připravíte rozloženou dvoustranu. Pokud je obálka i vnitřek tištěn na stejný druh papíru, obálku nemusíte připravovat zvlášť. Stránky vnitřku exportujte po jednotlivých stránkách, tiskař si je sám vyřadí na archy. Jenom obálku pošlete už vyřazenou. Počet stránek musí být dělitelný čtyřmi!</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/07.jpg">
+	<div class="descp">Obálka pro vazbu V1. Pozor kam umístíte přední a zadní stranu obálky! Raději si před odesláním vytiskněte maketu a zkusite si obálku složit.</div>
+</div>
+
+<div class="box">
+	<h2>Vyřazení stran pro vazbu V1 v InDesignu</h2>
+	<p>Pokud po vás klient chce připravit tiskovinu s vazbou V1 s tím, že si ji budou tisknout sami ve firmě, protože mají super kancelářskou tiskárnu a potřebují jen několik výtisků, tak InDesign nabízí řešení, protože umí v tomto případě brožuru vyřadit. Čistý formát bude v tomto případě A5, protože se bude tisknout na kancelářské papíry A4 a ty se pak budou přehýbat a vkládat do sebe. Dokument si připravte bez spadů a nedávejte grafiku příliš ke krajům, protože tam kancelářské tiskárny neumí tisknout.</p>
+	<p>Po kliknutí na možnost <code>Soubor>tisknout brožuru.</code> Dole je možnost <code>Nastavení tisku,</code> zde navolte tiskárnu Adobe PDF (pokud tam tato možnost není, tak nemáte nainstalovaný Acrobat). V nastavení zvolte správný formát, v našem případě A4 na šířku. Dejte ok a pak klikněte na tisnout, zvolte adresář kam se má pdf uložit a máte připravené tiskové pdf s vyřazenými stránkami. Tiskne se oboustranně.</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/08.jpg">
+	<div class="descp">Nastavení funkce tisknout brožuru.</div>
+</div>
+
+<div class="box">
+	<h2>Vazby V2, V4</h2>
+	<p>Zde se obálka připravuje obdobně jako u V1, akorát do dvoustrany si přidejte jednu úzkou stránku pro hřbet. Šířku hřbetu si vyžádejte od tiskárny. Pokud chcete potisknout i vnitřní strany obálky, tak bacha: tam kde se bude lepit knižní blok nesmí být potisk. Takže určitě nedávat grafiku na vnitřní stranu hřbetu a pokud se bude lepit k první a poslední stránce, tak nechat centimetr od hřbetu bez potisku. U vazby V2 stačí když je počet stran dělitelný dvěma, u V4, protože je šitá tak minimálně čtyřmi, lépe osmi; zase záleží na domluvě s tiskárnou.</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/09.jpg">
+	<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/10.jpg">
+	<div class="descp">Velikost jednotlivých stránek se mění v panelu stránky.</div>
+</div>
+
+<div class="box">
+	<h2>Potah desek</h2>
+	<p>Pokud připravujete potah desek, tak si vyžádejte rozkres od tiskárny, podle kterého vše připravíte. Princip je stejný jako u V2, akorát se musí vytvořit prostor pro přehyb a zalepení, který bývá 2 cm přes formát desek, který je o něco málo širší než knižní blok. Ale nejedná se o pravidlo. Můžete připravovat nějakou méně typickou tuhou vazbu, kde to bude trochu jiné.</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/11.jpg">
+	<p class="descp">Takto vypadá potah desek v InDesignu pro vazbu V8.</p>
+</div>
+
+<div class="box">
+	<h2>Přímé barvy</h2>
+	<p>Nastavevní barev hraje taky svou roli. Pokud tisknete pouze CMYKem nebo nemáte od klienta žádné speciální požadavky, není si třeba lámat hlavu. Je potřeba mírně zpozornit, pokud se budou používat ke cmyku další přímé barvy (nebo se třeba procesní CMYK vůbec nepoužije). Vybírají se ze vzorníků pantone, které najdete v kartě <code>vzorník</code> když si kliknete na <code>nové políčko</code> a pak dáte <code>upravit políčko</code>. Tam si pak vyberete správnou barvu a tu používáte na obarvení všeho co je potřeba. Při exportu se vám v pdf pak zobrazí ke cmyku ještě jako další přímá barva.</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/12.jpg">
+	<p class="descp">Pokud si barvu nastavíte ve vzorníku ve volbách políčka jako přímou, bude se pak exportovat do tiskových dat jako samostatná přímá barva vedle CMYKu.</p>
+</div>
+
+<div class="box">
+	<h2>Ražba, sítotisk a výsek</h2>
+	<p>Pro ražbu a sítotisk se data připravují víceméně stejně. Ražený/sítostiskový motiv se nastaví na jakoukoliv přímou barvu, která není jinak použita, pojmenuje se příhodně, třeba ražba nebo síto a umístí se na formát, kde se má ve výsledku objevit. Ideálně na samostatné stránce, tištěná grafika bude také zvlášť.</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/13.jpg">
+	<p class="descp">Potah desek a vše co se bude tisknout ofsetem. Ražba je na další stránce zvlášť.</p>
+
+	<img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/14.jpg">
+	<p class="descp">Ražba do folie je na samostatné stránce, vybarvena barvou, která je nastavena jako přímá a má příhodné pojmenování.</p>
+</div>
+
+<div class="box">
+	<p>Výsek nastavuje obdobně jako ražba, akorát nám stačí udělat obrysy výseku a ty nastavit na samostatnou přímou barvu a nastavit pojmenování na výsek. Plno výsekových forem budou mít v knihárně k dispozici, takže když budeme dělat třeba desky na dokumenty, tak je dobré zjistit, jestli již výsekovku nemají. Ušetříte tím za výrobu nové formy. U přípravy dat nezapomínejte u výseku na spady, protože i tady se nemusí přesně trefit na místo kde bude výsek. Protě nechte grafiku přesahovat alespoň 3 mm za hranici výseku. Pokud má výsek složitější tvar, může výt obtížné spady vytvořit.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/15.jpg">
+  <p class="descp">Kruhový výsek na umístěný na stránku.</p>
+</div>
+
+<div class="box">
+  <h2>Kontrola před výstupem</h2>
+  <p>InDesign má skvělou funkci, kontrola před výstupem. Umí toho překontrolovat opravdu hodně. Ideální je nastavit si více profilů, mezi kterými si budu přepínat podle potřeby. Profily se nastavují dole u hlásiče chyb v menu je to položka <code>definice profilů...</code></p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/17.jpg">
+</div>
+
+<div class="box">
+  <p>V definici profilů si klikněte na ikonu plus a vytvořte nový profil. Příhodně ho pojmenujte. Já si zvolil DTP a budu v něm chtít vše co je v základním profilu plus kontrolu jestli mám vše ve cmyku, rozlišení obrázků a jestli jsou obrázky vloženy proporčně. U velkých dokumentů, kde bude na tisíce obrázků je dobré si během sazby kontrolu úplně vypnout, protože hodně ubírá na výkonu počítače.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/18.jpg">
+  <img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/19.jpg">
+  <p class="descp">Mezi profily se přepíná dole.</p>
+</div>
+
+<div class="box">
+  <h2>Export do PDF</h2>
+  <p>Konečne se dostáváme k samotnému exportu do PDF. V úplně prvním okně si nastavte uložit jako typ Adobe PDF (Tisk).</p>
+  <p>Přednastavení Adobe PDF dejte na [PDF/X-1a:2001]. Případně vám z tiskárny dají požadavek na jiný standard, ale tenhle většinou funguje dobře. Pokud exportujete tiskovinu, která se bude ještě v tiskárně vyřazovat na archy, zadejte <code>exportovat jako stránky.</code></p>
+  <p>V kartě <code>komprese</code> nemusíte nic měnit. Ještě jsem se nesetkal, že by byl požadavek na vyšší rozlišení, než je tam nastavené.</p>
+  <p>V kartě <code>značky a spadávky</code> je potřeba trochu zapřemýšlet, co potřebujeme zaškrtnout. <code>Ořezové značky</code> potřebujeme skoro vždy. Pokud má dokument spadávky, tak potřebujeme <code>značky spadávek.</code> Soutiskové značky a barevné pruhy většinou nedávám. Stránkové informace se hodí, protože vám napíší do rohu jméno souboru indesignu. Takže když s odstupem času hledáte zdrojová data a máte jen tiskové pdf, může vám to výrazně pomoci. Vpravo se dá nastavit <code>posun</code> značek. Ten dejte vždy na stejnou hodnotu jako je odstup spadávky, jinak vám do ní značky polezou. Z nějakého podivného důvodu je automaticky posun nastaven na 2,1 mm a skoro všechna tisková pdf z indesignu mají ve výsledku jenom 2 mm spadávky, protože milimetr je nepoužitelný kvůli špatnému posunu značek. Ještě zaškrtávám <code>použít spadávku z dokumentu</code> a pokud mám vlastní značky tak i <code>zahrnout oblast popisu.</code></p>
+  <p>V kartě <code>výstup</code> mám <code>převod barev</code> nastavený na převést do cílového (zachovat čísla). Tzn., že se i všechno převede do cílového prostoru, takže když mi tam zůstane nějaké zapomenuté RGB, tak se mi převede. <code>Cíl</code> dám profil, do kterého se má vše převést, takže třeba FOGRA 39 (opět poradí tiskař). Dáme exportovat a je hotovo.</p>
+</div>
+
+<div>
+  <img class="width-100 title-padding" src="../media/img/orig/priprava-tiskovych-dat/16.jpg">
+</div>
