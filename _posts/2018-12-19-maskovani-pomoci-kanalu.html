@@ -1,0 +1,105 @@
+---
+layout: bl-post
+bl-title:  "Maskování za pomoci barevných kanálů / DTP manuál"
+title: Maskování za pomoci barevných kanálů
+date:   2018-11-30 05:10:14 -0400
+categories: photoshop
+tags: blog
+author: Marek Šmidrkal
+permalink: maskovani-pomoci-kanalu
+font-awesome: fab fa-font-awesome"
+published: true
+---
+<div class="box">
+<h2>Maskování pomocí barevných kanálů je technika, která pomůže rychle a precizně vymaskovat objekty, které jsou kontrastní ke svému pozadí. Tento způsob jsem využil i v mém starším návodu při <a href="http://mareksmidrkal.cz/preneseni-stinu" target="_blank" style="text-decoration: underline;">maskování stínů.</a><h2>
+</div>
+
+<div class="box">
+  <p>Jako příklad použiji svůj portrét. Vytvořím si <code>skupinu</code> a nazvu ji maska. Jako základ použiji kopii jednoho z barevných kanálů. Přejdu do panelu <code>kanály</code> a najdu si ten, který má největší kontrast mezi objektem a pozadím.</p>
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/maskovani-pomoci-kanalu/01.gif">
+<p class="descp">Vyberu si nejkontrastnější kanál a udělám si jeho kopii jako samostatnou vrstvu ve skupině maska.</p>
+</div>
+
+<div class="box">
+  <p>Nejkontrastnější kanál (vybral jsem zelený) si vyberu pomocí <code>CTRL+A</code> a dám do clipboardu pomocí <code>CTRL+C</code>. Poté kliknu na RGB a vrátím se do vrstev a kliknu na skupinu maska. Pomocí <code>CTRL+V</code> vložím kopii zeleného kanálu do samostatné vrstvy.</p>
+
+  <p>Jeden trik navíc: pokud žádný z kanálů není příliš kontrastní, můžete zkusit udělat kopii (úplně nový soubor) stávající fotografie a tu převést do barevného prostoru CMYK a zkopírovat si barevný kanál z této fotografie do původní, která je v RGB. U této fotografie to zrovna ale moc nefunguje.</p>
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/maskovani-pomoci-kanalu/02.jpg">
+<p class="descp">Barevný kanál kopíruji do vrstev, nevytvářím nový.</p>
+</div>
+
+<div class="box">
+  <p>Nyní pomocí vrstev úprav <code>úrovně</code> a <code>křivky</code> přidávám na kontrastu, ideálně aby pozadí bylo bílé. Není třeba zacházet až do extrémů, na této fotografii se mi celé pozadí do bílé nepovede převést, budu muset ještě udělat lokální úpravy.</p>
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/maskovani-pomoci-kanalu/03.gif">
+<p class="descp">Vpravo je fotografie již světlá až moc, vlevo bych mohl ještě trochu ubrat světlo z pozadí.</p>
+</div>
+
+<div class="box">
+  <p>Teď ještě udělám lokální úpravy. Začnu vlevo, kde by to chtělo ještě ubrat barvu z pozadí. Lasem si označím levou stranu fotografie a opět použiji vrstvy úprav jako v předchozím kroku. Při vložení nové vrstvy úprav se mi z výběru lasem automaticky udělá maska, kterou si pak můžu zkopírovat na další vrstvy úprav.</p>
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/maskovani-pomoci-kanalu/04.gif">
+<p class="descp">Lokální použití vrstev úprav.</p>
+</div>
+
+<div class="box">
+  <p>Při tvorbě lokálních úprav si můžu trochu pomoci tím, že si vytvořím novou skupinu, na tu aplikuji masku a do této skupiny pak dám vrstvy úprav a vystačím si s jednou maskou, kterou si pak mohu upravit dle potřeby.</p>
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/maskovani-pomoci-kanalu/05.gif">
+</div>
+
+<div class="box">
+  Obdobným způsobem si upravím i pravou stranou, kde se pozadí slilo s tváří obličeje. Přidám si více kontrastu na vousy, které by se ručně obtížně maskovaly. Tvář si pak domaskuji ručně.
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/maskovani-pomoci-kanalu/06.gif">
+<p class="descp">Seskupení vrstev úprav pod jednou maskou.</p>
+</div>
+
+<div class="box">
+  <p>Vše si sloučím pomocí <code>CTRL+SHIFT+ALT+E</code>. Kontury objektu si ztmavím pomocí <code>nástroje ztmavení</code>, nahoře v liště si zašrtnu <code>Rozsah: stíny.</code> Zbytek masky dodělám černým štětcem.
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/maskovani-pomoci-kanalu/07.jpg">
+<p class="descp">Ztmavení kontur udělám pomocí nástroje ztmavit. Zbytek vezmu ručně štětcem.</p>
+<img class="width-100 title-padding" src="../media/img/orig/maskovani-pomoci-kanalu/08.jpg">
+<p class="descp">Velké plochy začerním štětcem.</p>
+</div>
+
+<div  class="box">
+  <p>Ještě mi zbývá vymazat bílým štětcem pozadí vlevo. Nyní si již mohu zkopírovat pomocí <code>CTRL+A a CTRL+C</code> celou vrstvu s připravenou maskou. Do masky fotografie (s altem kliknu na masku u fotografie a dám CTRL+V). <code>Skupinu maska</code> si skryji.</p>
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/maskovani-pomoci-kanalu/09.jpg">
+</div>
+
+<div class="box">
+  <p>Masku si otočím pomocí <code>CTRL+I.</code> Ještě mi zbývá domaskovat pravé ucho a tvář. Ve vlastnostech masky si nastavím denzitu na cca 25 % a štětcem doladím masku.</p>
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/maskovani-pomoci-kanalu/10.jpg">
+</div>
+
+<div class="box">
+  A máme hotovo a můžeme montovat nové pozadí.
+</div>
+
+<div class="box">
+<img class="width-100 title-padding" src="../media/img/orig/maskovani-pomoci-kanalu/11.jpg">
+</div>
