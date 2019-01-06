@@ -7,7 +7,6 @@
     position: fixed; 
     left: 0; 
     right: 0; 
-    background-color: #f5f5f5; 
     z-index: 100; 
 
     // Positioning context for the mobile navigation icon
@@ -28,7 +27,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #48819b;
         border: none; 
     }
     
