@@ -1,0 +1,34 @@
+---
+layout: bl-post
+bl-title:  "Vytvoření nových stínů objektu / DTP manuál"
+title: Vytvoření nových stínů objektu
+date:   2019-01-26 05:10:14 -0400
+categories: photoshop
+tags: blog
+author: Marek Šmidrkal
+permalink: nove-stiny
+font-awesome: fas fa-socks
+published: false
+---
+<h2>Přidání věrohodných stínů využijeme při produktové fotografii i při montážích. S oblíbeným efektem všech DTP pracovníků vržený stín si bohužel málokdy vystačíme.</h2>
+
+<div class="box">
+  <p>Stín je pouze absence světla. Má svůj tvar a intenzitu. Vše záleží na zdroji svícení. Budeme muset vzít v úvahu intenzitu (vzdálenost), úhel (směr) a tvrdost světelného zdroje, který objekt osvětluje. Obecně vzato ve photoshopu vytvoříme stín pomocí černé barvy, které nastavíme správnou opacitu a použijeme mód průhlednosti multiply.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="https://cdn.pixabay.com/photo/2015/07/20/07/02/people-852427_1280.jpg">
+  <p class="descp">Zde je zdroj světla tvrdý, velmi intenzivní, je tedy buď blízko či je velmi silný nebo obojí. Osvětlení probíhá zleva doprava, zdroj je umístěn někde vlevo nahoře. Vržené stíny jsou tedy velmi tmavé, mají jasné okraje, které se mírně rozostřují úměrně se vzdáleností od objektu.</p>
+  
+  <img class="width-100 title-padding" src="https://cdn.pixabay.com/photo/2015/09/02/12/29/pedestrians-918471_1280.jpg">
+  <p class="descp">Zde je světlo velmi rozptýlené. Vržené stíny jsou skoro neznatelné.</p>
+</div>
+
+<div class="box">
+  <p>Při vytváření stínů beru vždy v úvahu dva druhy stínů. Vlastní stín, který zase až tak není ovlivněn zdrojem osvětlení. Je velmi tmavý a divákovi pomáhá rozpoznat, jestli objekt leží na zemi nebo levituje. A vržený stín, který je ovlivněn hlavně osvětlením scény.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="https://cdn.pixabay.com/photo/2016/02/21/20/52/egg-1214263_1280.jpg">
+  <p class="descp">Tato fotografie z Pixabay není zrovna nejkvalitnější, ale je na ní dobře vidět rozdíl mezi vlastním a vrženým stínem. Vlastní stín je tvořen černou tenkou kruhovou linií těsně pod okrajem nohy stojánku na vajíčko. Divákovi dává pocit, že objekt leží na stole. Ostatní stíny jsou vržené.</p>
+</div>
