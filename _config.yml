@@ -7,7 +7,7 @@
 
 # Site settings
 title: Marek Šmidrkal
-email: m.smidrkal@gmail.com
+email: ahoj@mareksmidrkal.cz
 description: > # this means to ignore newlines until "baseurl:"
   Grafické práce, na web i na papír.
 baseurl: "/" # the subpath of your site, e.g. /blog
