@@ -130,7 +130,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: #fff;
+    color: #48819b;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -281,6 +281,7 @@ h1.post-title {
     letter-spacing: 2px;
     line-height: 1.2; 
     font-weight: 600; 
+    color: #48819b;
 
     @include media-query($on-laptop) {
         font-size: 36px; 
