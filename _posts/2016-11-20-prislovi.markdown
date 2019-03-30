@@ -1,6 +1,6 @@
 ---
 layout: postblank2
-title:  "Přísloví v obrázcích Vinci Hehla"
+title:  "Přísloví v&nbsp;obrázcích Vinci Hehla"
 date:   2015-05-31 05:10:14 -0400
 categories: tisk
 author: Marek Šmidrkal
@@ -10,4 +10,4 @@ images:
   - "prislovi/02.jpg"
   - "prislovi/03.jpg"
 ---
-<p class="descp">Lidová moudrost v obrazech. Kolekce obrázků Vincence Hehla, která zachycuje nejrůznější přísloví. Dárková knížka s mírným edukativním přesahem.</p>
+<p class="descp">Lidová moudrost v&nbsp;obrazech. Kolekce obrázků Vincence Hehla, která zachycuje nejrůznější přísloví. Dárková knížka s&nbsp;mírným edukativním přesahem.</p>

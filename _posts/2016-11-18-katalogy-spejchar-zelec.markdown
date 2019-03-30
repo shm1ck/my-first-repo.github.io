@@ -21,5 +21,5 @@ images:
   - "katalogy-spejchar-zelec/10.gif"
   - "katalogy-spejchar-zelec/11.jpg"
 ---
-<p class="descp">Historická budova špejcharu leží v jihočeské Želči. Návštěvníkům nabízí stálou expozici zemědělské techniky a v prvním patře pak výstavy výtvarného umění.</p>
-<p class="descp">Výraznou budovu, která je dominantou obce, reflektuje i logo od kterého se pak odvíjí vizuální styl želečského špejcharu. Každá výstava má svoji vlastní barvu, která se pak objevuje i na dalších materiálech jako jsou katalogy a pozvánky.</p>
+<p class="descp">Historická budova špejcharu leží v&nbsp;jihočeské Želči. Návštěvníkům nabízí stálou expozici zemědělské techniky a&nbsp;v&nbsp;prvním patře pak výstavy výtvarného umění.</p>
+<p class="descp">Výraznou budovu, která je dominantou obce, reflektuje i&nbsp;logo od kterého se pak odvíjí vizuální styl želečského špejcharu. Každá výstava má svoji vlastní barvu, která se pak objevuje i&nbsp;na&nbsp;dalších materiálech jako jsou katalogy a&nbsp;pozvánky.</p>

@@ -12,4 +12,4 @@ images:
   - "zalepky/04.jpg"
   - "zalepky/05.jpg"
 ---
-<p class="descp">Reklamní známky nikdy nesloužily k odesílání dopisů, ale měly za úkol propagovat (podniky, firmy a společenské akce), zkrášlovat dopisní obálky či posloužit jako suvenýr nebo sběratelská rarita. Několik desítek jich nalezneme i v této drobné publikaci.</p>
+<p class="descp">Reklamní známky nikdy nesloužily k&nbsp;odesílání dopisů, ale měly za úkol propagovat (podniky, firmy a&nbsp;společenské akce), zkrášlovat dopisní obálky či posloužit jako suvenýr nebo sběratelská rarita. Několik desítek jich nalezneme i&nbsp;v&nbsp;této drobné publikaci.</p>

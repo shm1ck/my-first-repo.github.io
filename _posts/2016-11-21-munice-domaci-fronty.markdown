@@ -13,4 +13,4 @@ images:
   - "munice-domaci-fronty/05.jpg"
 ---
 
-<p class="descp">I propaganda vykonaná prostřednictvím válečných plakátů sloužila jako <i>munice domácí fronty</i>. Publikace, která se zabývá angloamerickým válečným plakátem první světové války, vyšla jako první s originálním českým textem. Naleznete v ní přes sto reprodukcí plakátů, které pomáhaly vyhrát velkou válku.</p>
+<p class="descp">I&nbsp;propaganda vykonaná prostřednictvím válečných plakátů sloužila jako <i>munice domácí fronty</i>. Publikace, která se zabývá angloamerickým válečným plakátem první světové války, vyšla jako první s&nbsp;originálním českým textem. Naleznete v&nbsp;ní&nbsp;přes sto reprodukcí plakátů, které pomáhaly vyhrát velkou válku.</p>

@@ -13,5 +13,5 @@ images:
   - "molnar/04.jpg"
   - "molnar/05.jpg"
 ---
-<p class="descp">Knižní monografie malíře a vojáka Karla Molnára doprovodila jeho putovní výstavu v roce 2017. Poslední ze zastávek byla v Topičově salónu v Praze.</p>
-<p class="descp">Poloplátěná vazba je doplněná ražbou na hřbetu. Úsporné typografické řešení publikace dává vyniknout příběhu a především malířskému dílu Karla Molnára, které je mimo jiné ovlivněno Františkem Kupkou, se kterým se potkal v Paříži. Vysázeno písmem Eskorte písmolijny Rosetta.</p>
+<p class="descp">Knižní monografie malíře a&nbsp;vojáka Karla Molnára doprovodila jeho putovní výstavu v roce 2017. Poslední ze zastávek byla v&nbsp;Topičově salónu v&nbsp;Praze.</p>
+<p class="descp">Poloplátěná vazba je doplněná ražbou na hřbetu. Úsporné typografické řešení publikace dává vyniknout příběhu a&nbsp;především malířskému dílu Karla Molnára, které je mimo jiné ovlivněno Františkem Kupkou, se kterým se potkal v&nbsp;Paříži. Vysázeno písmem Eskorte písmolijny Rosetta.</p>
