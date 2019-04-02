@@ -1,0 +1,152 @@
+---
+layout: bl-post
+bl-title:  "Nalití textů přes sloučení dat / DTP manuál"
+title: Textové proměnné v InDesignu
+date:   2019-03-31 05:10:14 -0400
+categories: indesign
+tags: blog
+author: Marek Šmidrkal
+permalink: data-merge
+font-awesome: fas fa-dollar-sign
+published: true
+---
+<div class="box">
+  <h2>Textová proměnná je užitečná funkce InDesignu. Funguje to tak, že na libovolné místa nebo místa vložíme tuto proměnnou a nastavíme parametry, co má dělat.</h2>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/01.jpg">
+  <p class="descp">Textové proměnné najdeme po nabídkou Text>Textové proměnné.</p>
+</div>
+
+<div class="box">
+  <h2>Vlastní text</h2>
+  <p>Začnu nejsnadnějším příkladem, kterým je <code>vlastní text.</code> Používám ho na označení vydání periodika, které se v časopisech vyskytuje většinou na několika nejrůznějších místech najednou. Na titulní straně, v záhlaví, v tiráži... </p>
+  <p>Dám si <code>Text>Textové proměnné>Definovat...</code> Kliknu na tlačítko <code>Nová</code></p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/02.jpg">
+  <p class="descp">Otevřel se mi dialog nastavení nové textové proměnné.</p>
+</div>
+
+<div class="box">
+  <p>Dialogovým oknem, které se mi právě otevřelo, je možné nastavit všechny typy textových proměných, které InDesign umí. Jako <code>Název</code> zadám text, který mi pomůže proměnnou snadno identifikovat. Třeba 'datum vydání'. Jako <code>Typ</code> zvolím <code>Vlastní text.</code> Do políčka <code>Text</code> zadám číslo vydání tak, jak chci aby se mi v dokumentu ukázalo.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/03.jpg">
+  <p class="descp">Nyní musím proměnnou definovat.</p>
+</div>
+
+<div class="box">
+  <p>Všude v dokumentu, kde chci, aby se mi tento text objevil, vložím tuto novou textovou proměnnou. Vytvořím si textový rámeček, kliknu do něj jako když chci psát text a pak dám <code>Text>Textové proměnné>Vložit textovou proměnnou</code> a vyberu si kterou chci vložit. Vložený text pak mohu formátovat dle libosti.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/04.jpg">
+  <p class="descp">Vložím textovou proměnnou s vlastním textem.</p>
+</div>
+
+<div class="box">
+  <p>Otázka zní, proč to prostě normálně nenapsat ručně? Protože když budu lámat nové číslo časopisu, tak si otevřu připravený vzor, ve kterém akorát jednou přepíšu text v definici textové proměnné a na všech ostatních místech se mi změní a zachová se mi i formátování.</code></p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/05.gif">
+  <p class="descp">Stačí změnit definici textové proměnné.</p>
+</div>
+
+<div class="box">
+  <h2>Průběžné záhlaví</h2>
+  <p>Asi nejčastější použití textových proměnných je při tvorbě záhlaví. Pokud chceme mít v záhlaví/zápatí jméno kapitoly apod. je textová proměnná skvělá volba. Proměnná si načte z textu na stránce text, který je psaný určitým odstavcovým nebo znakovým stylem a zkopíruje ho na místo, kam jsme vložili textovou proměnnou.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/06.jpg">
+</div>
+
+<div class="box">
+  <p>Nejprve musíme mít vysazený text a správně nastylované nadpisy, které se mají objevit v záhlaví. Tzn. že všechny budou jedním stylem. Definuji si proměnnou. Typ nastavím na <code>Průběžné záhlaví (odstavcový styl)</code> a jako <code>Styl</code> vyberu styl nadpisů. V nabídce <code>Použít</code> nechám <code>První na stránce.</code> Když bude na jedné stránce více nadpisů, tak se použije první výskyt, ale lze také nastavit na poslední. Pokud mám v záhlaví nějaký pevný text, mohu využít <code>Text před</code> a <code>Text za.</code> Potvrdím kliknutím na ok.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/07.jpg">
+</div>
+
+<div class="box">
+  <p>Do vzoru si připravím rámečky pro záhlaví. A vložím do nich nově vytvořenou textovou proměnnou. V sazbě se mi už načetly nadpisy. U knihy s dlouhým textem, kde může být takových nadpisů desítky, mi tento postup vždy pomohl urychlit práci.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/08.jpg">
+</div>
+
+<div class="box">
+  <h2>Průběžné záhlaví na jedné straně s daty z obou stran</h2>
+  <p>Občas se stane, že průběžné záhlaví chci mít jenom na jedné straně, ale chci, aby se mi načítal styl i z protilehlé stránky. Jako příklad uvádím katalog kytarových efektů. Designér vymyslel, že vlevo na straně se mi budou měnit zkratky jednotlivých pedálů. Co s tím?</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/09.jpg">
+</div>
+
+<div class="box">
+  <p>Napřed si vytvořím ve vzoru textový rámeček pro průběžné záhlaví. Udělám ho vpravo i vlevo.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/10.jpg">
+</div>
+
+<div class="box">
+  <p>Teď si definuji proměnnou, úplně stejně, jako bych měl záhlaví na obou stranách. V InDesignu nejde nastavit, aby se styly načítaly z dvoustrany, ale pouze z jedné stránky, takže dál si budeme muset pomoci malou vychytávkou.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/11.jpg">
+</div>
+
+<div class="box">
+  <p>Na levou stranu si vložím <code>průběžné záhlaví,</code> za něj jsem si dal dlouhou mezeru, aby se mi kódy pedálů od sebe odsadily a úplně na konec vložím znak rozdělení <code>nový rámeček.</code> Vkládá se přes Text>Vložit znak rozděnlení>Nový rámeček. Textové rámečky s proměnnými si zřetězím. Na pravou stranu si vložím také průběžné záhlaví.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/12.jpg">
+</div>
+
+<div class="box">
+  <p>Teď už mi automatické záhlaví funguje, ale ještě ho potřebuji dostat k sobě. Abych to mohl udělat, tak bohužel musím jeho funkci vypnout a převést ho na text. Tento krok dělejte až úplně na konci celé sazby, když už máte schválený obsah.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/13.jpg">
+</div>
+
+<div class="box">
+  <p>Textová proměnná nelze převést na text, pokud je v sazbě zamčená. Označím si všechny stránky a kliknu na jednu z nich pravým tlačítkem myši a zvolím možnost <code>Změnit všechny položky vzorové stránky.</code> Pokud mám ve vzoru hodně prvků, vyplatí se vytvořit na průběžné záhlaví svoji vlastní vrstvu. Při jeho odemykání si pak můžu ostatní vrstvy zamknout a v sazbě se mi pak uvolní jenom textové rámečky se sazba, ale ostatní prvky zůstanou nedotčeny.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/14.jpg">
+</div>
+
+<div class="box">
+  <p>Textová proměnná nelze převést na text, pokud je v sazbě zamčená. Označím si všechny stránky a kliknu na jednu z nich pravým tlačítkem myši a zvolím možnost <code>Změnit všechny položky vzorové stránky.</code> Pokud mám ve vzoru hodně prvků, vyplatí se vytvořit na průběžné záhlaví svoji vlastní vrstvu. Při jeho odemykání si pak můžu ostatní vrstvy zamknout a v sazbě se mi pak uvolní jenom textové rámečky se sazba, ale ostatní prvky zůstanou nedotčeny.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/15.jpg">
+</div>
+
+<div class="box">
+  <p>Teď už jenom zbývá dostat text z pravé strany na levou. K tomu mi pomůže funkce <code>najít a nahradit,</code> kterou si otevřu pomocí CTRL+F. Do pole <code>Hledat formát</code> zadám styl, kterým mám naformátované průběžné záhlaví. Prohledávání se tedy bude konat pouze v textu, na který je použit příslušný styl. Do pole 'Hledat' zadám znak rozdělení <code>\r</code> a do pole 'Změnit na' nepíšu nic, protože chci, aby se mi znak rozdělení 'Nový rámeček' smazal. 'Prohledat' nastavím na <code>Dokument.</code></p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/textove-promenne/16.gif">
+</div>
+
+<div class="box">
+  <p>Určitě existuje několik dalších, zřejmě elegantnějších, řešení jak si s touto situací poradit. Jedno z nich se jmenuje Power Headers. Jedná se o placený skript pro InDesign, ale funguje jenom pro určité verze programu. Umí načítat zdroje pro záhlaví z celé dvoustrany a má celou řadu dalších fukncí. Na druhou stranu: zkoušel jsem trial verzi a nakonec jsem raději použil postup viz. výše.</p>
+</div>
