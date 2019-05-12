@@ -11,7 +11,7 @@ font-awesome: fas fa-search
 published: true
 ---
 <div class="box">
-  <h2>Hledat a nahradit využiji vždy, když potřebuji upravit nebo naformátovat dlouhé texty. V tomto článku bych se rád zaměřil na pokročilé možnosti této funkce.</h2>
+  <h2>Hledat a nahradit využiji vždy, když potřebuji upravit nebo naformátovat dlouhé texty. V tomto článku bych se rád zaměřil na nahrazování stylů.</h2>
 </div>
 
 <div class="box">
@@ -21,17 +21,17 @@ published: true
 
 <div class="box">
   <h2>Hledat a nahradit styl</h2>
-  <p>Po importu textu z wordu je užitečné použít nějaký čistící skript nebo podobný postup, který upraví text tak, aby se již nemuseli dále řešit typografické chyby. Obecně se hovoří o find/change by list skriptu, který je akorát sledem příkazů hledat/nahradit. Jeden jsem našel pro češtinu, ale text se mi po jeho použití rozhodil, takže jsem to zkoušel jinak.</p>
+  <p>Po importu textu z wordu je užitečné použít nějaký čistící skript nebo podobný postup, který upraví text tak, aby se již nemuseli dále řešit typografické chyby. Obecně se hovoří o find/change by list skriptu, který je vlastně sledem příkazů hledat/nahradit. Jeden jsem našel pro češtinu, ale text se mi po jeho použití rozhodil, takže jsem to zkoušel jinak.</p>
   <p>Jako první jsem si chtěl zachovat vyznačování v textu (tučně/kurzíva). Na to mi pomůže vytvoření vhodných znakových stylů. Zavřu si všechny dokumenty a vytvořím si dva znakové styly s názvy: bold a italic. V záložce Základní znakové styly definuji v kolonce Řez písma <code>bold</code> a ve stylu italic dám logicky <code>italic.</code> Tím, že jsem si zavřel všechny dokumenty, tak jsem nastavil tyto dva znakové styly jako výchozí nastavení pro všechny v budoucnu vytvořené dokumenty. Volitelně si mohu ještě předdefinovat styl <code>bold italic.</code></p>
 </div>
 
 <div class="box">
   <img class="width-100 title-padding" src="../media/img/orig/najit-a-nahradit/02.jpg">
-  <p class="descp">Vytvořil jsem dva znakové styly. Ale napřed jsem zavřel všechny dokumenty, které jsem měl v InDesignu.</p>
+  <p class="descp">Vytvořil jsem dva znakové styly. Ale napřed jsem zavřel všechny dokumenty, které jsem měl v InDesignu otevřené.</p>
 </div>
 
 <div class="box">
-  <p>Naimportuji text z wordu. Ještě ho kompletně přeformátuji, ale chci zachovat vyznačování, takže udělám následující. Otevřu si okno Hledat a nahradit. Kliknu na ikonu lupy pole s označením <code>Hledat formát:</code> Najít chci všechno co je psáno boldem. V záložce základní znakové formáty dám v kolonce Řez písma volbu <code>bold.</code></p>
+  <p>Naimportuji text z wordu. Než ho kompletně přeformátuji, postarám se o to, aby mi zůstalo vyznačování. Otevřu si okno Hledat a nahradit. Kliknu na ikonu lupy u  pole s označením <code>Hledat formát:</code> Najít chci všechno co je psáno boldem. V záložce základní znakové formáty dám v kolonce Řez písma volbu <code>bold.</code></p>
 </div>
 
 <div class="box">
@@ -85,12 +85,12 @@ published: true
 </div>
 
 <div class="box">
-  <p>Obdobným způsobem lze naformátovat zbytek textu. Problém je, že tu ještě mám dva druhy nadpisů a každý budu chtít jiným stylem. Oba jsou teďka stejně nastylované, takže si budu muset pomoci regulárním výrazem. První nadpis je psán pouze velkými písmeny, takže budu hledat řetězce, které neobsahují malá písmena. Napsal jsem to naopak, tedy najdi odstavce, které obsahují všechno ostatní kromě malých písmen. Do pole Najít přijde toto: <code>^\L\L+\r</code> Určitě to není nejelegantnější způsob zápisu, ale funguje to (částečně). Do pole Změnit na nepíšu nic. Do hledat formát opět přijde Calibri, bold, 12 a Změnit na formát nastavíme na nový odstavcový styl. Dáme Nahradit vše a je to.</p>
+  <p>Obdobným způsobem lze naformátovat zbytek textu. Problém je, že tu ještě mám dva druhy nadpisů a každý budu chtít v jiném stylu. Oba jsou teďka stejně nastylované, takže si budu muset pomoci regulárním výrazem. První nadpis je psán pouze velkými písmeny, takže budu hledat řetězce, které neobsahují malá písmena. Do pole Najít přijde toto: <code>^\L\L+\r</code> Do pole Změnit na nepíšu nic. Do hledat formát opět přijde Calibri, bold, 12 a Změnit na formát nastavíme na nový odstavcový styl. Dáme Nahradit vše a je to.</p>
   <p>Výraz GREP použitý v odstavci výše: řetězec má na začátku odstavce libovolný znak, krom malého písmena, následuje libovolný počet znaků, ale nesmí se jednat o malé písmeno; až po konec odstavce. Tento výraz najde všechny skoro všechny nadpisy psané velkými písmeny a několik podnadpisů (ty které neobsahují malá písmena). Výraz by šlo ještě více odladit, ale v tomto případě by mi to zabralo více času, než ručně doladit formátování.</p>
 </div>
 
 <div class="box">
-  <img class="width-100 title-padding" src="../media/img/orig/data-merge/09.jpg">
+  <img class="width-100 title-padding" src="../media/img/orig/najit-a-nahradit/09.jpg">
   <p class="descp">Hledám nadpisy psané velkými písmeny.</p>
 </div>
 
