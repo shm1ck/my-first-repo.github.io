@@ -29,7 +29,7 @@ published: true
 </div>
 
 <div class="box">
-  <p>A už zbývá nadefinovat styl grep. Otevřu si nastavení stylu chlebového textu. A kliknu na záložku <code>Styl GREP.</code> Kliknu na Nový styl GREP.</p>
+  <p>Zbývá ještě nadefinovat styl grep. Otevřu si nastavení stylu chlebového textu. A kliknu na záložku <code>Styl GREP.</code> Kliknu na Nový styl GREP.</p>
 </div>
 
 <div class="box">
@@ -38,7 +38,7 @@ published: true
 
 <div class="box">
   <p>Vytvoří se mi nový styl GREP. V menu aplikovat styl si vyberu znakový styl, který už mám vytvořený.</p>
-  <p>V poli <code>Na text:</code> se mi objevil zápis <code>\d+</code>, co to znamená? Že styl se má aplikovat na jakoukoliv číslici (\d), která se opakuje jednou nebo vícekrát(+). Takže teď budou tučně všechna čísla.</p>
+  <p>V poli <code>Na text:</code> se mi objevil zápis <code>\d+</code>. Co to znamená? Že styl se má aplikovat na jakoukoliv číslici (\d), která se opakuje jednou nebo vícekrát(+). Takže teď budou tučně všechna čísla.</p>
 </div>
 
 <div class="box">
@@ -54,7 +54,7 @@ published: true
 </div>
 
 <div class="box">
-  <p>Použijeme metaznak nebo <code>|</code>, který umožňuje vyhledávání variant slova stejného základu. Regulární výraz pro náš případ bude vypadat takto <code>fotografi(i|í|e)</code>.</p>
+  <p>Použijeme metaznak 'nebo' <code>|</code>, který umožňuje vyhledávání variant slova stejného základu. Regulární výraz pro náš případ bude vypadat takto <code>fotografi(i|í|e)</code>.</p>
   <p>Ještě nemáme odladěnou situaci, kdy hledané slovo bude na začátku věty a bude mít tedy velké první písmeno. Na to nám pomůže rozšíření výrazu na <code>(f|F)otografi(i|í|e)</code>.</p>
   <p>Ale co když bude text psaný verzálkami? Na to bude nejlepší použít 'nerozlišovat velká a malá písmena'. Náš výraz bude vypadat takto: <code>(?i)fotografi(i|í|e)</code>.</p>
 </div>
@@ -64,7 +64,7 @@ published: true
 </div>
 
 <div class="box">
-  <p>Potřebnou dokumentaci o GREPu v InDesignu naleznete na stránkách Adobe <a href="https://helpx.adobe.com/cz/indesign/using/find-change.html" target="_blank">zde</a>. Doporučuji si projít praktické příklady najít a nahradit, u kterých je pouužt GREP na pochopení principu. Odladění výrazu GREP může chvíli trvat, ale pokud máte v textu hodně výskytů na úpravu, tak se vyplatí trochu úsilí vynaložit. Navíc lze plno výrazů vygooglit na internetu. Třeba na úpravu mezer u jednoznakovek.</p>
+  <p>Potřebnou dokumentaci o GREPu v InDesignu naleznete na stránkách Adobe <a href="https://helpx.adobe.com/cz/indesign/using/find-change.html" target="_blank">zde</a>. Doporučuji si projít praktické příklady najít a nahradit, u kterých je použit GREP na pochopení principu. Odladění výrazu GREP může chvíli trvat, ale pokud máte v textu hodně výskytů na úpravu, tak se vyplatí trochu úsilí vynaložit. Navíc lze plno výrazů vygooglit na internetu. Třeba na úpravu mezer u jednoznakovek. Pomocí (nejen) javascriptu by měl jít vyřešit problém s jednoznakovkami v textech na webu. Teoretické řešení jsem našel, ale nepodařilo se mi to rozpohybovat v praxi. Přece jenom jsem détépák a ne programátor. Proto berte s rezervou i návod viz. výše, určitě nepoužívám správnou terminologii. Ale i základy práce s regulárními výrazy vám může ušetřit hodně času.</p>
 </div>
 
 <div class="box">
