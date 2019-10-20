@@ -1,0 +1,72 @@
+---
+layout: bl-post
+bl-title:  "Styly GREP / DTP manuál"
+title: Styly GREP
+date:   2019-10-20 05:10:14 -0400
+categories: indesign
+tags: blog
+author: Marek Šmidrkal
+permalink: styly-grep
+font-awesome: fas fa-code
+published: true
+---
+<div class="box">
+  <h2>Styl GREP se mi hodí, když potřebuji, aby se mi určité opakující se fráze vyznačovaly nějakým (znakovým) stylem.</h2>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/styly-grep/01.jpg>
+</div>
+
+<div class="box">
+  <p>General regular expression print neboli GREP je funkce InDesignu, která umí vyhledávat řetězce pomocí regulárních výrazů. V programování často používaný způsob, jak ověřit, jestli zadaný text uživatelem odpovídá určitému zadání. Např. jestli emailová adresa je ve správném tvaru.</p>
+  <p>Dejme tomu, že v textu o retuši produktové fotografie, chceme tučně vyznačit všechna slova 'fotografie' (pochopitelně ve všech pádech). K tomu mi pomůže styl grep.</p>
+  <p>Jako první vytvořím příslušný odstavcový styl, kterým bude naformátován celý text. Pak si vytvořím znakový styl, který bude měnit styl hledaného textu; v našem případě všech slov 'fotografie'.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/styly-grep/02.jpg>
+</div>
+
+<div class="box">
+  <p>A už zbývá nadefinovat styl grep. Otevřu si nastavení stylu chlebového textu. A kliknu na záložku <code>Styl GREP.</code> Kliknu na Nový styl GREP.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/styly-grep/03.jpg>
+</div>
+
+<div class="box">
+  <p>Vytvoří se mi nový styl GREP. V menu aplikovat styl si vyberu znakový styl, který už mám vytvořený.</p>
+  <p>V poli <code>Na text:</code> se mi objevil zápis <code>\d+</code>, co to znamená? Že styl se má aplikovat na jakoukoliv číslici (\d), která se opakuje jednou nebo vícekrát(+). Takže teď budou tučně všechna čísla.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/styly-grep/04.jpg>
+</div>
+
+<div class="box">
+  <p>Ale my chceme mít tučně slovo fotografie ve všech pádech. Začnu tím, že napíšu část slova, která se neohýbá, tedy <code>fotografi</code>. Všechny výskyty se nám vyznačily tučně, koncovky ale jsou stále regularem. Co s tím?</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/styly-grep/05.jpg>
+</div>
+
+<div class="box">
+  <p>Použijeme metaznak nebo <code>|</code>, který umožňuje vyhledávání variant slova stejného základu. Regulární výraz pro náš případ bude vypadat takto <code>fotografi(i|í|e)</code>.</p>
+  <p>Ještě nemáme odladěnou situaci, kdy hledané slovo bude na začátku věty a bude mít tedy velké první písmeno. Na to nám pomůže rozšíření výrazu na <code>(f|F)otografi(i|í|e)</code>.</p>
+  <p>Ale co když bude text psaný verzálkami? Na to bude nejlepší použít 'nerozlišovat velká a malá písmena'. Náš výraz bude vypadat takto: <code>(?i)fotografi(i|í|e)</code>.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/styly-grep/06.jpg>
+</div>
+
+<div class="box">
+  <p>Potřebnou dokumentaci o GREPu v InDesignu naleznete na stránkách Adobe <a href="https://helpx.adobe.com/cz/indesign/using/find-change.html" target="_blank">zde</a>. Doporučuji si projít praktické příklady najít a nahradit, u kterých je pouužt GREP na pochopení principu. Odladění výrazu GREP může chvíli trvat, ale pokud máte v textu hodně výskytů na úpravu, tak se vyplatí trochu úsilí vynaložit. Navíc lze plno výrazů vygooglit na internetu. Třeba na úpravu mezer u jednoznakovek.</p>
+</div>
+
+<div class="box">
+  <img class="width-100 title-padding" src="../media/img/orig/styly-grep/07.jpg>
+</div>
