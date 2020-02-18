@@ -192,6 +192,13 @@ code {
 		font-size: 21px;
 		line-height: 32px; 
 	}
+	
+	.container {
+               margin: auto;
+               max-width: calc(1400px - (30px * 2));
+               padding-right: 0px;
+               padding-left: 0px;
+         }
 
 	.page-title {
 		padding-left: 5%; 
