@@ -50,11 +50,6 @@ header {
 	left: 0;
 	right: 0;
 	position: fixed;
-	border-bottom: 3px solid black;
-}
-
-header:hover {
-	border-bottom: 3px solid #E749A0; 
 }
 
 ul {
@@ -63,7 +58,7 @@ ul {
 	float: right;
 }
 
-li{
+li {
 	list-style-type: none; 
 	float: left; 
 	padding-right: 20px;
