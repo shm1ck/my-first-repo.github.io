@@ -112,7 +112,7 @@ code {
 
 .grid {
     display: grid;
-    grid-template-columns: 36% 50%;
+    grid-template-columns: 41% 55%;
     grid-gap: 4%;
     grid-row-gap: 15px;
 }
