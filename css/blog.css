@@ -82,8 +82,10 @@ code {
 }
 
 .container {
-	margin: auto;
-	max-width: 1400px; 
+    margin: auto;
+    max-width: calc(1400px - (30px * 2));
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .main-padding {
