@@ -6,6 +6,7 @@ ver 1
 body {
 	font-family: "Adelle-sans", arial, sans;
 	margin: 0; 
+	background: #efefef;
 }
 
 .box h2 a {
@@ -110,10 +111,10 @@ code {
 }
 
 .grid {
-	display: grid;
-	grid-template-columns: 47.5% 47.5%; 
-	grid-gap: 5%;
-	grid-row-gap: 0px; 
+    display: grid;
+    grid-template-columns: 36% 50%;
+    grid-gap: 4%;
+    grid-row-gap: 15px;
 }
 
 .grid-4 {
