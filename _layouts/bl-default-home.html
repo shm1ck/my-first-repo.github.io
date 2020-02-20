@@ -10,7 +10,7 @@
     <div class="container main-padding">
       <h1>Nejnovější článek</h2>
       {% for page in site.tags.blog limit:1 %}
-			    <div class="box icon">
+			    <div class="box icon" style="margin-bottom: 60px">
 			      <a href="../{{ page.permalink }}">
 			    		<i class="{{ page.font-awesome }}"></i>
 			    		<div class="icon-descp">{{ page.title }}</div>
