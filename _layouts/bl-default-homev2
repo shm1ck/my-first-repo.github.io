@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include bl-head.html %}
+
+  <body>
+
+    {% include bl-header.html %}
+	  
+    <div class="container main-padding">
+      <h1>Nejnovější článek</h2>
+      {% for page in site.tags.blog limit:1 %}
+			    <div class="box icon">
+			      <a href="../{{ page.permalink }}">
+			    		<i class="{{ page.font-awesome }}"></i>
+			    		<div class="icon-descp">{{ page.title }}</div>
+			    	</a>
+			    </div>
+      {% endfor %}
+      
+        <div class="grid-4">
+      {% for page in site.tags.blog offset:1 %}
+			    <div class="box icon">
+			      <a href="../{{ page.permalink }}">
+			    		<i class="{{ page.font-awesome }}"></i>
+			    		<div class="icon-descp">{{ page.title }}</div>
+			    	</a>
+			    </div>
+      {% endfor %}
+        </div>
+    </div>
+
+  </body>
+
+</html>
