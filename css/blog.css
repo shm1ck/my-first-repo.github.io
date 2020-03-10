@@ -131,7 +131,7 @@ code {
 }
 
 .icon {
-	font-size: 140px; 
+	font-size: 70px; 
 	text-align: center;
 	margin-bottom: 0px;
 	max-width: 284px;
@@ -140,6 +140,7 @@ code {
 .icon-descp {
 	font-size: 24px;
 	line-height: 31px;
+	margin-top: 10px;
 }
 
 .title-padding {
