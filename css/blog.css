@@ -272,6 +272,7 @@ code {
 
 	.icon {
 		margin-bottom: 20%; 
+		max-width: none;
 	}
 
 	.icon:last-child {
