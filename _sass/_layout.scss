@@ -2,11 +2,12 @@
  * Site header
  */
 .site-header {
-    background: #efefef;
+    background: #000;
     min-height: 56px; 
     position: fixed; 
     left: 0; 
-    right: 0; 
+    right: 0;
+    opacity: 0.95; 
     z-index: 100; 
 
     // Positioning context for the mobile navigation icon
@@ -24,6 +25,7 @@
     float: left;
     border: 0; 
     text-decoration: none; 
+    color: #ADD8E6;
 
     &,
     &:visited {
@@ -45,7 +47,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #fff;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
