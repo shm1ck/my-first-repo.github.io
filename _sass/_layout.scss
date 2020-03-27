@@ -9,6 +9,7 @@
     padding: 30px 0 50px;
     opacity: 0.95; 
     z-index: 100; 
+    transition: top 0.5s;
 
     // Positioning context for the mobile navigation icon
 
@@ -25,7 +26,7 @@
     float: left;
     border: 0; 
     text-decoration: none; 
-    color: #000;
+    color: #48819b;
 
     &,
     &:visited {
