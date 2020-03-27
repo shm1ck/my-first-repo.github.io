@@ -2,11 +2,11 @@
  * Site header
  */
 .site-header {
-    background: #000;
     min-height: 56px; 
     position: fixed; 
     left: 0; 
-    right: 0;
+    right: 0; 
+    padding: 30px 0 50px;
     opacity: 0.95; 
     z-index: 100; 
 
@@ -25,11 +25,11 @@
     float: left;
     border: 0; 
     text-decoration: none; 
-    color: #ADD8E6;
+    color: #000;
 
     &,
     &:visited {
-        color: #ADD8E6;
+        color: #000;
         border: none; 
     }
     
@@ -47,7 +47,7 @@
     }
 
     .page-link {
-        color: #fff;
+        color: #000;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -115,7 +115,6 @@
  * Site footer
  */
 .site-footer {
-    border-top: 2px solid $grey-color-dark;
     padding: $spacing-unit 0; 
 }
 
@@ -185,7 +184,7 @@
  * Page content
  */
 .page-content {
-    padding: 92px 0 30px 0;
+    padding: 156px 0 30px 0;
 }
 
 .page-heading {
@@ -231,29 +230,51 @@
 
 .grid {
 	float: left;
-	width: calc(50% - 15px); 
-	margin-bottom: 30px; 
+	width: calc(50% - 10px); 
+	margin-bottom: 20px; 
 	padding-bottom: 0px; 
 }
 
 .marginright {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .stopro {
     width: 100%; 
 }
 
+p.jumbo {
+    font-size: 60px;
+    line-height: 90px;
+}
+
+p.services {
+    margin-bottom: 100px;
+}
+
 @media screen and (max-width: 800px) {
 	
-     .grid {
+    .grid {
 	 width: 100%; 
 	 margin-bottom: 15px; 
 	 padding-bottom: 0px;
     }
 	
-     .marginright {
+    .marginright {
          margin-right: 0px;
+    }
+
+    p.jumbo {
+        font-size: 45px;
+        line-height: 68px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    p.jumbo {
+        font-size: 38px;
+        line-height: 60px;
     }
 }
 
@@ -276,6 +297,7 @@ h1.post-title {
 
 .post-header {
     margin-bottom: $spacing-unit;
+    padding-right: 40px; 
 	
      @include media-query($on-laptop) {
          margin-bottom: 0; 
@@ -305,11 +327,13 @@ h1.post-title {
 }
 
 p.descp {
-    font-size: 34px; 
+    font-size: 25px;
+    line-height: 40px; 
 	
      @include media-query($on-laptop) {
         font-size:22px; 
-	padding-bottom: 15px; 
+        line-height: 37px; 
+	    padding-bottom: 15px; 
     }
 }
 
