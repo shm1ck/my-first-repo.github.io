@@ -236,6 +236,12 @@
 	padding-bottom: 0px; 
 }
 
+.grid-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .marginright {
     margin-right: 20px;
 }
