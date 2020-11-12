@@ -10,7 +10,7 @@ body {
 }
 
 .box h2 a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a {
@@ -22,11 +22,11 @@ p {
 	line-height: 35px; 
 	letter-spacing: -0.3px; 
 	font-size: 22px; 
-	color: rgb(120, 120, 120);
+	color: rgb(65, 65, 65);
 }
 
 p:last-child {
-    margin: 0px; 
+  margin: 0px; 
 }
 
 h1, h2, h3, p {
@@ -70,22 +70,22 @@ li:last-child {
 }
 
 code {
-    background-color: #787878;
-    color: #fff;
-    max-width: 100%;
-    overflow-x: auto;
-    vertical-align: middle;
-    border-radius: 5px;
-    display: inline-block;
-    padding: 0 10px;
-    font-family: "adelle", monospace;
+  background-color: #787878;
+  color: #fff;
+  max-width: 100%;
+  overflow-x: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0 10px;
+  font-family: "adelle", monospace;
 }
 
 .container {
-    margin: auto;
-    max-width: calc(1400px - (30px * 2));
-    padding-right: 30px;
-    padding-left: 30px;
+  margin: auto;
+  max-width: calc(1400px - (30px * 2));
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .main-padding {
@@ -108,10 +108,10 @@ code {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 41% 55%;
-    grid-gap: 4%;
-    grid-row-gap: 15px;
+  display: grid;
+  grid-template-columns: 41% 55%;
+  grid-gap: 4%;
+  grid-row-gap: 15px;
 }
 
 .grid-4 {
@@ -196,11 +196,11 @@ code {
 	}
 	
 	.container {
-               margin: auto;
-               max-width: calc(1400px - (30px * 2));
-               padding-right: 0px;
-               padding-left: 0px;
-         }
+    margin: auto;
+    max-width: calc(1400px - (30px * 2));
+    padding-right: 0px;
+    padding-left: 0px;
+   }
 
 	.page-title {
 		padding-left: 5%; 
