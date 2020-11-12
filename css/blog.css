@@ -25,6 +25,10 @@ p {
 	color: rgb(65, 65, 65);
 }
 
+p a {
+	border-bottom: 1px solid black;
+}
+
 p:last-child {
   margin: 0px; 
 }
