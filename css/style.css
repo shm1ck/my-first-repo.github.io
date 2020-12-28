@@ -1,0 +1,269 @@
+body {
+  font-family: "Adelle-sans", arial, sans;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+.container {
+  max-width: 990px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+header {
+  padding-top: 30px;
+}
+
+span.main-title {
+  font-family: "Adelle", Times, sans-serif; 
+  font-size: 50px; 
+  font-weight: 600;
+  color: #ffffff;
+}
+
+span.main-description {
+  font-size: 22px;
+  color: #ffffff;
+  float: right;
+  padding-top: 30px;
+}
+
+.main-image {
+  width: 100%;
+  height: 715px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("articleimg.jpg");
+  background-position: center center;
+  z-index: 0;
+}
+
+img.logo-adobe {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 84px; 
+}
+
+a.author {
+  font-size: 22px;
+  padding: 10px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  text-decoration: none;
+  z-index: 20;
+}
+
+.ps-colors {
+  color: #31A8FF; 
+  background-color: #001E36;
+}
+
+.id-colors {
+  color: #FF3366;
+  background-color: #49021F;
+}
+
+.neutral-colors {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+a.author.ps-colors:hover {
+  color: black;
+  background: white;
+}
+
+a.author.neutral-colors:hover {
+  color: black;
+  background: white;
+}
+
+a.article-link:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a.article-link:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+a.article-link:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+h1.new-article {
+  white-space: pre-line;
+  font-size: 50px;
+  font-family: "Adelle", Times, sans-serif; 
+  padding: 20px 0;
+  margin-top: 715px; 
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+
+a.first-article:link {
+  text-decoration: none;
+}
+
+a.first-article:visited {
+  text-decoration: none;
+  color: #31A8FF;
+}
+
+a.first-article.id:visited {
+  text-decoration: none;
+  color: #FF3366;
+}
+
+a.first-article:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h2.article-menu-name {
+  font-size: 22px;
+  font-family: "Adelle", Times, sans-serif; 
+  margin-bottom: 10px;
+}
+
+span.article-menu-tags {
+  font-size: 18px; 
+}
+
+.fresh-article {
+  left: 0;
+  right: 0; 
+  margin-bottom: 74px; 
+}
+
+.article-menu {
+  min-width: 50%; 
+  margin-bottom: 45px; 
+}
+
+.flex-article-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px
+}
+
+.button-all {
+  font-size: 22px;
+  padding: 10px; 
+  margin-bottom: 20px;
+}
+
+span.button-all a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+span.button-all a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+span.button-all:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  background-color: #737373;
+}
+
+@media only screen and (max-width: 1030px) {
+  
+  header {
+    top: 30px;
+    position: absolute;
+    padding-top: 0px;
+  }
+
+  span.main-description {
+    font-size: 16px;
+    color: #ffffff;
+    float: none;
+    padding-top: 0;
+    display: block;
+  }
+
+  span.main-title {
+    font-size: 34px;
+  }
+
+  h1.new-article {
+    font-size: 34px;
+    margin-top: 487px;
+  }
+
+  .main-image {
+    height: 487px;
+    background-size: auto 100%;
+  }
+
+  img.logo-adobe {
+    width: 65px;
+  }
+
+  span.author {
+    font-size: 18px;
+  }
+
+  .flex-article-menu {
+  display: block;
+  margin-bottom: 40px
+  }
+}
+
+@media only screen and (max-width: 800px) { 
+    .main-image {
+    height: 360px;
+  }
+
+  h1.new-article {
+    font-size: 28px;
+    margin-top: 360px;
+  }
+
+  span.main-title {
+    font-size: 28px;
+  }
+
+  span.main-description {
+    font-size: 14px;
+  }
+
+  span.author {
+    font-size: 14px;
+  }
+
+  img.logo-adobe {
+    width: 50px;
+  }
+
+  .fresh-article {
+    margin-bottom: 38px;
+  }
+
+  .article-menu {
+    min-width: 50%;
+    margin-bottom: 34px;
+  }
+
+  h2.article-menu-name {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  span.article-menu-tags {
+    font-size: 14px;
+  }
+
+  .button-all {
+    font-size: 14px;
+  }
+}
