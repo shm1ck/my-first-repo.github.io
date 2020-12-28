@@ -18,6 +18,14 @@
         </div>
      </header>
 
+    
+    {% for page in site.tags.blog limit:1 %}
+      {% if page.categories == "photoshop" %}
+      <img class="logo-adobe" src="media/img/orig/photoshop-logo.png">
+      {% if page.categories == "indesign" %}
+      <img class="logo-adobe" src="media/img/orig/indesign-logo.png">
+      {% endif %}
+    {% endfor %}
     <img class="logo-adobe" src="media/img/orig/photoshop-logo.png">
     <a href="http://mareksmidrkal.cz" target="_blank" class="author ps-colors">píše Marek Šmidrkal</a>
   </div>
