@@ -25,12 +25,12 @@
   <div class="fresh-article ps-colors">
     <div class="container">
       <a href="/" class="first-article"><h1 class="new-article">Nejnovější článek:
-      Affinity Photo</h1></a>
+      {% for page in site.tags.blog limit:1 %}{{ page.title }}{% endfor %}</h1></a>
     </div>
   </div>
 
   <div class="container flex-article-menu">
-    {% for page in site.tags.blog %}
+    {% for page in site.tags.blog offset:1 %}
     <div class="article-menu">
       <a href="../{{ page.permalink }}" class="article-link">
         <h2 class="article-menu-name">{{ page.title }}</h2>
