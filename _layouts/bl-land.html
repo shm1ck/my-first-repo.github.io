@@ -30,7 +30,7 @@
   </div>
 
   <div class="container flex-article-menu">
-    {% for page in site.tags.blog offset:1 %}
+    {% for page in site.tags.blog limit:4 offset:1 %}
     <div class="article-menu">
       <a href="../{{ page.permalink }}" class="article-link">
         <h2 class="article-menu-name">{{ page.title }}</h2>
