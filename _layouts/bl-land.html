@@ -24,8 +24,10 @@
 
   <div class="fresh-article ps-colors">
     <div class="container">
+      {% for page in site.tags.blog limit:1 %}
       <a href="../{{ page.permalink }}" class="first-article"><h1 class="new-article">Nejnovější článek:
-      {% for page in site.tags.blog limit:1 %}{{ page.title }}{% endfor %}</h1></a>
+      {{ page.title }}</h1></a>
+      {% endfor %}
     </div>
   </div>
 
