@@ -3,8 +3,10 @@
 <head>
   <title>DTP manuál</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="bl-land-style.css">
   <link rel="stylesheet" href="https://use.typekit.net/eer6xbt.css">
+  <meta name="description" content="Praktické návody pro aplikace Adobe Photoshop a InDesign">
+  <meta name="robots" content="index, follow">
 </head>
 <body>
 
@@ -28,29 +30,14 @@
   </div>
 
   <div class="container flex-article-menu">
+    {% for page in site.tags.blog %}
     <div class="article-menu">
-      <a href="/" class="article-link">
-        <h2 class="article-menu-name">Šrafování v InDesignu</h2>
-        <span class="article-menu-tags">22. 1. 2018 • InDesign</span>
+      <a href="../{{ page.permalink }}" class="article-link">
+        <h2 class="article-menu-name">{{ page.title }}</h2>
+        <span class="article-menu-tags">{{ page.date | date: '%d. %m. %Y' }} • {{ page.categories }}</span>
       </a>
     </div>
-
-    <div class="article-menu">
-      <h2 class="article-menu-name">Styly grep</h2>
-      <span class="article-menu-tags">18. 5. 2018 • InDesign</span>
-    </div>
-
-    <div class="article-menu">
-      <h2 class="article-menu-name">Inteligentní objekty ve Photoshopu</h2>
-      <span class="article-menu-tags">31. 11. 2017 • Photoshop</span>
-    </div>
-
-    <div class="article-menu">
-      <h2 class="article-menu-name">Skripty v InDesignu</h2>
-      <span class="article-menu-tags">5. 8. 2017 • InDesign</span>
-    </div>
-  </div>
-
+    {% endfor %}
   <div class="container">
     <span class="button-all ps-colors"><a href="/">všechny články</a></span>
   </div>
