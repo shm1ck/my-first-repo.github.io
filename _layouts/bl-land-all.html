@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DTP manuál</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bl-land-style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/eer6xbt.css">
+  <meta name="description" content="Praktické návody pro aplikace Adobe Photoshop a InDesign">
+</head>
+<body>
+
+  <div class="main-image">
+    <header>
+      <div class="container">
+        <span class="main-title">DTP manuál</span>
+        <span class="main-description">Praktické návody pro Adobe Photoshop a InDesign</span>
+        </div>
+     </header>
+
+    
+    <a href="http://mareksmidrkal.cz" target="_blank" class="author neutral-colors">píše Marek Šmidrkal</a>
+  </div>
+
+  <div class="fresh-article neutral-colors">
+    <div class="container">
+      <h1 class="new-article">Všechny články</h1>
+    </div>
+  </div>
+
+  <div class="container flex-article-menu">
+    {% for page in site.tags.blog %}
+    <div class="article-menu">
+      <a href="../{{ page.permalink }}" class="article-link">
+        <h2 class="article-menu-name">{{ page.title }}</h2>
+        <span class="article-menu-tags">{{ page.date | date: '%d. %m. %Y' }} • {{ page.categories }}</span>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</body>
+</html>
