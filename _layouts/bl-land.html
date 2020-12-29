@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <div class="main-image" style="background-image:url("{% for page in site.tags.blog limit:1 %}{{ image }}{% endfor %}";)">
+  <div class="main-image" style="background-image:url("{% for page in site.tags.blog limit:1 %}{{ page.images }}{% endfor %}";)">
     <header>
       <div class="container">
         <span class="main-title">DTP manuál</span>
