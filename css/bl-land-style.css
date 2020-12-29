@@ -109,6 +109,7 @@ h1.new-article {
 
 a.first-article:link {
   text-decoration: none;
+  color: #31A8FF;
 }
 
 a.first-article:visited {
