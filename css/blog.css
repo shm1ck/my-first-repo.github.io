@@ -219,6 +219,7 @@ code {
 	.page-title:hover {
 		-webkit-text-stroke: 1px #258ED9;
                 text-shadow: 1px 1px 1px #91d2ff;
+	}
 
 	.grid {
 	  display: block;
