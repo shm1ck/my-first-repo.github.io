@@ -270,7 +270,7 @@ code {
 	}
 
 	.page-title {
-		float: left;
+		font-size: 37px;
 	}
 
 	.grid-4 {
@@ -299,5 +299,9 @@ code {
 	header {
 	position: static;
 	min-height: 50px; 
+	}
+	
+	.page-title {
+	font-size: 32px;
 	}
 }
