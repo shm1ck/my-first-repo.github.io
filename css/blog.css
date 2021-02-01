@@ -3,8 +3,10 @@ css for DTP s presahem
 ver 1
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600;900&display=swap');
+
 body {
-	font-family: "Adelle-sans", arial, sans;
+	font-family: 'Source Code Pro', monospace;
 	margin: 0; 
 	background: #efefef;
 }
@@ -50,10 +52,8 @@ h2 {
 
 header {
 	min-height: 50px;  
-	background-color: rgba(255,255,255,0.65);
 	left: 0;
 	right: 0;
-	position: fixed;
 }
 
 ul {
@@ -82,7 +82,6 @@ code {
   border-radius: 5px;
   display: inline-block;
   padding: 0 10px;
-  font-family: "adelle", monospace;
 }
 
 .container {
@@ -97,18 +96,21 @@ code {
 }
 
 .page-title {
-	line-height: 50px; 
-	float: left;
-	color: #E749A0; 
 	text-decoration: none; 
-	font-size: 30px; 
-	font-family: "adelle", arial, sans; 
-	letter-spacing: 1.8px; 
 	text-transform: uppercase;
+	font-family: 'Source Code Pro', monospace;
+        font-weight: 900;
+        font-size: 100px;
+        color: rgba(0, 0, 0, 0);
+        -webkit-text-stroke: 2px #258ED9;
+        text-shadow: 3px 3px 1px #91D2FF;
+        margin-top: 0;
+        transition: 0.3s;
 }
 
 .page-title:hover {
-	color: black;
+	text-shadow: 1px 1px 1px #91D2FF;
+        -webkit-text-stroke: 2px #258ED9;
 }
 
 .grid {
