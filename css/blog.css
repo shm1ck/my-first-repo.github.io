@@ -221,7 +221,7 @@ code {
                 text-shadow: 1px 1px 1px #91d2ff;
 
 	.grid {
-		display: block;
+	  display: block;
 	}
 
 	.grid-4 {
