@@ -190,6 +190,7 @@ code {
   -webkit-text-stroke: 2px #258ED9;
   text-shadow: 3px 2px 1px #91d2ff;
   color: rgba(0,0,0,0);
+  transition: 0.3s;
 }
 
 .fas:hover {
