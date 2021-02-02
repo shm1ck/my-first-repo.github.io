@@ -92,25 +92,26 @@ code {
 }
 
 .main-padding {
-	padding-top: 90px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .page-title {
-	text-decoration: none; 
-	text-transform: uppercase;
-	font-family: 'Source Code Pro', monospace;
-        font-weight: 900;
-        font-size: 100px;
-        color: rgba(0, 0, 0, 0);
-        -webkit-text-stroke: 2px #258ED9;
-        text-shadow: 3px 3px 1px #91D2FF;
-        margin-top: 0;
-        transition: 0.3s;
+  text-decoration: none; 
+  text-transform: uppercase;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+  font-size: 100px;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 2px #258ED9;
+  text-shadow: 3px 3px 1px #91D2FF;
+  margin-top: 0;
+  transition: 0.3s;
 }
 
 .page-title:hover {
-	text-shadow: 1px 1px 1px #91D2FF;
-        -webkit-text-stroke: 2px #258ED9;
+  text-shadow: 1px 1px 1px #91D2FF;
+  -webkit-text-stroke: 2px #258ED9;
 }
 
 .grid {
@@ -121,188 +122,182 @@ code {
 }
 
 .grid-4 {
-	display: grid;
-	grid-template-columns: 21.25% 21.25% 21.25% 21.25%;
-	grid-gap: 5%;
-	grid-row-gap: 13%;
-	margin-top: 55px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr) );
+  grid-gap: 20px;
 }
 
 .no-margin {
-	margin: 0;
+  margin: 0;
 }
 
 .box {
-	margin-bottom: 10%;  
+  margin-bottom: 10%;  
 }
 
 .icon {
-	font-size: 70px; 
-	text-align: center;
-	margin-bottom: 0px;
-	max-width: 284px;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0,0,0,0);
+  justify-content: center;
+  padding: 20px;
+  height: 280px;
+  border: 2px #258ED9 solid;
+  box-shadow: 3px 3px 1px #91d2ff;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  box-shadow: 0px 0px 1px #91D2FF;
 }
 
 .icon-descp {
-	font-size: 24px;
-	line-height: 31px;
-	margin-top: 10px;
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 10px;
+  font-weight: 900;
 }
 
 .title-padding {
-	padding-top: 5px; 
+  padding-top: 5px; 
 }
 
 .width-100 {
-	max-width: 100%; 
+  max-width: 100%; 
 }
 
 .descp {
-	font-size: 14px; 
-	font-weight: 600; 
-	line-height: 21px; 
+  font-size: 14px; 
+  font-weight: 600; 
+  line-height: 21px; 
 }
 
 .select {
-	color: #E749A0;
+  color: #E749A0;
 }
 
 .seznam {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .fas {
-	color: darkgrey;
+  -webkit-text-stroke: 2px #258ED9;
+  text-shadow: 3px 2px 1px #91d2ff;
+  color: rgba(0,0,0,0);
 }
 
 @media only screen and (max-width: 1069px) {
 	h1, h2, p {
-		padding-left: 5%; 
-		padding-right: 15%; 
+	  padding-left: 5%; 
+	  padding-right: 15%; 
 	}
 
 	p {
-		font-size: 20px;
-		line-height: 33px; 
+	  font-size: 20px;
+	  line-height: 33px; 
 	}
 
 	ul {
-		padding-right: 5%;
+	  padding-right: 5%;
 	}
 
 	h1 {
-		font-size: 35px;
-		line-height: 42px; 
+	  font-size: 35px;
+	  line-height: 42px; 
 	}
 
 	h2 {
-		font-size: 21px;
-		line-height: 32px; 
+	  font-size: 21px;
+	  line-height: 32px; 
 	}
 	
 	.container {
-    margin: auto;
-    max-width: calc(1400px - (30px * 2));
-    padding-right: 0px;
-    padding-left: 0px;
-   }
+          margin: auto;
+          max-width: calc(1400px - (30px * 2));
+          padding-right: 0px;
+          padding-left: 0px;
+         }
 
 	.page-title {
-		padding-left: 5%;
-                float: left;
-                font-size: 60px;
-                -webkit-text-stroke: 1px #258ED9;
-                text-shadow: 2px 2px 1px #91d2ff;
+	  padding-left: 5%;
+          float: left;
+          font-size: 60px;
+          -webkit-text-stroke: 1px #258ED9;
+          text-shadow: 2px 2px 1px #91d2ff;
 	}
 	
 	.page-title:hover {
-		-webkit-text-stroke: 1px #258ED9;
-                text-shadow: 1px 1px 1px #91d2ff;
+	  -webkit-text-stroke: 1px #258ED9;
+                 text-shadow: 1px 1px 1px #91d2ff;
 	}
 
 	.grid {
 	  display: block;
 	}
 
-	.grid-4 {
-	display: grid;
-	grid-template-columns: 21.25% 21.25% 21.25% 21.25%;
-	grid-gap: 5%;
-	grid-row-gap: 11%;
-	margin-top: 55px;
-	padding: 0 5%;
-}
-
-.no-margin {
-	margin: 0;
-}
+        .no-margin {
+          margin: 0;
+        }
 
 	.box {
-		margin-bottom: 5%; 
+	  margin-bottom: 5%; 
 	}
 
 	.width-100 {
-		width: 100%;
+	  width: 100%;
 	}
 }
 
 @media only screen and (max-width: 900px) {
-	.grid-4 {
-		display: grid;
-		grid-template-columns: 47.5% 47.5%; 
-		grid-gap: 5%;
-	}
-
 	.no-margin {
-	margin: 0;
+	  margin: 0;
 	}
 }
 
 @media only screen and (max-width: 600px) {
 	h1, h2, p {
-		padding-left: 5%; 
-		padding-right: 5%; 
+	  padding-left: 5%; 
+	  padding-right: 5%; 
 	}
 	
 	ul {
-		float: right;
-		padding-left: 5%;
+	  float: right;
+	  padding-left: 5%;
 	}
 
 	.page-title {
-		font-size: 37px;
-	}
-
-	.grid-4 {
-		display: block;
+	  font-size: 37px;
 	}
 
 	.no-margin {
-	margin: 0;
+	  margin: 0;
 	}
 
-	.icon {
-		margin-bottom: 20%; 
-		max-width: none;
+/*	.icon {
+	  margin-bottom: 20%; 
+	  max-width: none;
 	}
 
 	.icon:last-child {
-		margin-bottom: 10%; 
-	}
+	  margin-bottom: 10%; 
+	} */
 }
 
 @media only screen and (max-width: 500px) {
 	.main-padding {
-		padding-top: 27px; 
+	  padding-top: 27px; 
 	}
 
-	header {
-	position: static;
-	min-height: 50px; 
-	}
+	/*header {
+	  position: static;
+	  min-height: 50px; 
+	}*/
 	
 	.page-title {
-	font-size: 32px;
+	  font-size: 32px;
 	}
 }
