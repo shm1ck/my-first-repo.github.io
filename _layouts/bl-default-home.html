@@ -10,12 +10,12 @@
     <div class="container main-padding">
         <div class="grid-4">
       {% for page in site.tags.blog %}
-			    <div class="box icon">
-			      <a href="../{{ page.permalink }}">
-			    		<i class="{{ page.font-awesome }}"></i>
-			    		<div class="icon-descp">{{ page.title }}</div>
-			    	</a>
-			    </div>
+          <a href="../{{ page.permalink }}">
+            <div class="icon">
+              <i class="{{ page.font-awesome }}"></i>
+              <div class="icon-descp">{{ page.title }}</div>
+            </div>
+          </a>
       {% endfor %}
         </div>
     </div>
