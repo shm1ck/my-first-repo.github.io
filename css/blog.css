@@ -198,6 +198,28 @@ code {
   text-shadow: 0px 0px 1px #91d2ff;
 }
 
+.blueboxes {
+	display: grid;
+	grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+	grid-gap: 20px;
+}
+
+.bluebox {
+	background-image: linear-gradient(to right, #31A8FF, #A8DAFF);
+	padding: 40px;
+}
+
+span.tagy {
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+span.date {
+	color: #000;
+}
+
 @media only screen and (max-width: 1069px) {
 	h1, h2, p {
 	  padding-left: 5%; 
