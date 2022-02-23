@@ -1,0 +1,60 @@
+---
+layout: bl-post
+title: Jednoznakové předložky jako styl grep
+date:   2022-02-23 05:10:14 -0400
+categories: indesign
+tags: blog
+author: Marek Šmidrkal
+permalink: slovniky
+font-awesome: fas fa-spell-check
+published: true
+---
+<div class="box">
+	<h2>Pomocí výrazu grep můžeme snadno odladit jednoznakové předložky na konci řádku. Pomocí stylu grep můžeme tento způsob vyřešit automaticky.</h2>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/nobreak/01.png">
+</div>
+
+<div class="box">
+	<p>Napřed si vytvoříme znakový styl, který si pojmenujeme např. nobreak a zaškrtneme u něj v kartě základní znakové formáty možnost bez rozdělení (no break). Text, na který tento styl použijeme, se bude držet u sebe na jednom řádku.</p>
+	<p>Pokud tento postup uděláme v InDesignu a nebudeme mít otevřený žádný dokument, nastavení se uloží jako defaultní a objeví se pak ve všech nově vytvořených dokumentech.</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/nobreak/02.png">
+</div>
+
+<div class="box">
+	<p>Otevřeme si nastavení odstavcového stylu, u kterého chceme, aby se automaticky jednoznakovky spojovali se slovem a nezůstávaly tak na konci řádku. Klikneme na styly grep.</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/nobreak/03.png">
+</div>
+
+<div class="box">
+	<p>Přidáme nový styl grep a v položce aplikovat styl zvolíme ten, který jsme vytvořili na začátku, tedy nobreak. A do kolonky na text zadáme následující výraz <code>(\<[szkvaiouSZKVAIOU])[ ]</code>. Ten vyhledá všechny znaky v hranaté závorce, které za sebou mají mezeru. Na všechny výskytu v textu formátovaným daným odstavcovým stylem se aplikuje znakový styl nobreak, který zajistí, že jednoznakovka zůstane bez rozdělení se slovem za ní a nebude se tedy vyskytovat na konci řádku.</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/nobreak/04.png">
+</div>
+
+<div class="box">
+	<p>Pokud chceme, aby se nerozdělovalo více případů v textu, přidáme další styl grep s příslušným výrazem. Pokud další nově vytvořené styly budou odvozené od toho se styly grep, tak i v těchto nových stylech budou převzaty.</p>
+	<p>To znamená, že u nově vytvořeného stylu, si ve všeobecných možnostech nastavíme v nabídce obvozen od výchozí styl, ve kterém jsme si definovaly styly grep.</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/nobreak/05.png">
+</div>
+
+<div class="box">
+	<p>V praxi se odvědčilo vytvořit si jeden výchozí styl, kterým nebudeme formátovat text, ale budeme ho používat pro globální nastavení ostatních stylů. Cokoliv změníme ve výchozím stylu, se pak změní ve všech ostatních.</p>
+</div>
+
+<div class="box">
+	<img class="width-100 title-padding" src="../media/img/orig/nobreak/06.png">
+</div>
