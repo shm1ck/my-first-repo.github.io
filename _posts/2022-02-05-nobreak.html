@@ -1,16 +1,16 @@
 ---
 layout: bl-post
-title: Jednoznakové předložky jako styl grep
+title: Odstranění jednoznakovek na konci řádků pomocí stylu grep
 date:   2022-02-23 05:10:14 -0400
 categories: indesign
 tags: blog
 author: Marek Šmidrkal
 permalink: slovniky
-font-awesome: fas fa-spell-check
+font-awesome: fas fa-code
 published: true
 ---
 <div class="box">
-	<h2>Pomocí výrazu grep můžeme snadno odladit jednoznakové předložky na konci řádku. Pomocí stylu grep můžeme tento způsob vyřešit automaticky.</h2>
+	<h2>Pomocí stylu grep můžeme snadno odladit jednoznakové předložky na konci řádku a nechat odstavcový styl, aby tento problém řešil sám za nás. Třeba ve všech nových dokumentech, které vytvoříme v InDesignu.</h2>
 </div>
 
 <div class="box">
@@ -18,7 +18,7 @@ published: true
 </div>
 
 <div class="box">
-	<p>Napřed si vytvoříme znakový styl, který si pojmenujeme např. nobreak a zaškrtneme u něj v kartě základní znakové formáty možnost bez rozdělení (no break). Text, na který tento styl použijeme, se bude držet u sebe na jednom řádku.</p>
+	<p>Napřed si vytvoříme znakový styl, který si pojmenujeme např. nobreak a zaškrtneme u něj v kartě základní znakové formáty volbu bez rozdělení (no break). Text, na který tento styl použijeme, se bude držet u sebe na jednom řádku.</p>
 	<p>Pokud tento postup uděláme v InDesignu a nebudeme mít otevřený žádný dokument, nastavení se uloží jako defaultní a objeví se pak ve všech nově vytvořených dokumentech.</p>
 </div>
 
@@ -27,7 +27,7 @@ published: true
 </div>
 
 <div class="box">
-	<p>Otevřeme si nastavení odstavcového stylu, u kterého chceme, aby se automaticky jednoznakovky spojovali se slovem a nezůstávaly tak na konci řádku. Klikneme na styly grep.</p>
+	<p>Otevřeme si nastavení odstavcového stylu, u kterého chceme, aby se automaticky jednoznakovky spojili s dalším slovem a nezůstaly na konci řádku. Klikneme na styly grep.</p>
 </div>
 
 <div class="box">
@@ -43,8 +43,7 @@ published: true
 </div>
 
 <div class="box">
-	<p>Pokud chceme, aby se nerozdělovalo více případů v textu, přidáme další styl grep s příslušným výrazem. Pokud další nově vytvořené styly budou odvozené od toho se styly grep, tak i v těchto nových stylech budou převzaty.</p>
-	<p>To znamená, že u nově vytvořeného stylu, si ve všeobecných možnostech nastavíme v nabídce obvozen od výchozí styl, ve kterém jsme si definovaly styly grep.</p>
+	<p>Pokud chceme, aby se nerozdělovalo více případů v textu než jen jednoznakovky, přidáme další styl grep s příslušným výrazem. Pokud další nově vytvořené odstavcové styly budou odvozené od původního, ve kterém jsme definovali styly grep, tak i nově vytvořené styly převezmou původní grepy.</p>
 </div>
 
 <div class="box">
