@@ -211,7 +211,7 @@ code {
 	margin-bottom: 20px;
 }
 
-.bluebox h1, p {
+.bluebox h1 {
         padding: 0;
 }
 
@@ -234,10 +234,6 @@ span.date {
 	  padding-left: 5%; 
 	  padding-right: 15%; 
 	}
-        
-	.bluebox h1, p {
-        padding: 0;
-        }
 	
 	p {
 	  font-size: 20px;
@@ -319,10 +315,6 @@ span.date {
 	  padding-left: 5%; 
 	  padding-right: 5%; 
 	}
-	
-	.bluebox h1, p {
-        padding: 0;
-        }
 	
 	ul {
 	  float: right;
