@@ -9,7 +9,7 @@
 	  
     <div class="container main-padding">
         <div class="grid-4">
-      {% for page in site.tags.blog %}
+      {% for page in site.tags.blog offset:2 %}
           <a href="../{{ page.permalink }}">
             <div class="icon">
               <i class="{{ page.font-awesome }}"></i>
