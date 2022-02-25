@@ -202,12 +202,13 @@ code {
 	display: grid;
 	grid-template-columns: calc(50% - 10px) calc(50% - 10px);
 	grid-gap: 20px;
-	padding: 0 10px 20px 10px;
+	padding: 0 10px;
 }
 
 .bluebox {
 	background-image: linear-gradient(to right, #31A8FF, #A8DAFF);
 	padding: 40px;
+	margin-bottom: 20px;
 }
 
 .bluebox h1, p {
@@ -224,6 +225,8 @@ span.tagy {
 
 span.date {
 	color: #000;
+	margin-bottom: 10px;
+        display: inline-block;
 }
 
 @media only screen and (max-width: 1069px) {
@@ -231,7 +234,11 @@ span.date {
 	  padding-left: 5%; 
 	  padding-right: 15%; 
 	}
-
+        
+	.bluebox h1, p {
+        padding: 0;
+        }
+	
 	p {
 	  font-size: 20px;
 	  line-height: 33px; 
@@ -312,6 +319,10 @@ span.date {
 	  padding-left: 5%; 
 	  padding-right: 5%; 
 	}
+	
+	.bluebox h1, p {
+        padding: 0;
+        }
 	
 	ul {
 	  float: right;
